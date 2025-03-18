@@ -1,0 +1,19 @@
+1. Create a project
+
+dotnet new console -o MyApp // or replace MyApp with whatever name
+
+2. Enter the project
+
+cd MyApp
+
+3. Edit the Program.cs file (i.e. put this in the file)
+
+"Console.WriteLine("Hello, C Sharp Via Ubuntu 20.04!");"
+
+4. Now run it at runtime
+
+dotnet run
+
+The following was a good source:
+
+https://terminalroot.com/how-to-install-csharp-on-ubuntu-and-getting-started/
