@@ -1,0 +1,8 @@
+two options:
+
+1. run this command: "cd ~"
+but then you can't run basic commands like "touch"
+as I just discovered
+
+2. open git bash app as administrator
+then you have permission to make documents like the present one
