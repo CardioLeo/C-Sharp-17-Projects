@@ -8,8 +8,8 @@
 
 /- install SSMS (Management Studio) /
 
-- connect to SQL server with SSMS
+/- connect to SQL server with SSMS /
 
-- config manager?
+/- reviewed config manager /
 
 - install adventureworks
