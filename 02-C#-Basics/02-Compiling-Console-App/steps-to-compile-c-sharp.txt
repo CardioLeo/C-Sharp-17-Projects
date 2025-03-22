@@ -35,4 +35,16 @@ csc /help // tells you the commands you can use with the compiler
 
 run command:
 
-csc /t:exe /out:c:
+csc /t:exe /out:c:\HelloWorld\HelloWorld.exe c:\HelloWorld\HelloWorld.cs
+
+// but!! his path is different from mine, so the third and final argument must be different
+
+// 1. /t:exe creates executable
+// 2. /out creates output file... (that isn't the executable?)
+// next, specify the file you're going to compile
+
+// so, my command looked more like this:
+
+csc /t:exe /out:c:\Users\William\.......\01-First-Console-App\HelloWorld.exe c:\Users\William\........\01-First-Console-App\HelloWorld.cs
+
+if I go to the directory listed in argument two of this command, I can run the HelloWorld application
