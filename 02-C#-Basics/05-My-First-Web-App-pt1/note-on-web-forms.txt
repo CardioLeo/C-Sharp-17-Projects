@@ -1,0 +1,21 @@
+//
+//
+//
+
+https://visualstudiomagazine.com/articles/2022/05/16/vs2022-web-forms-tip.aspx
+
+The above link is from Visual Studio Magazine and helps explain how to get and use web forms
+in VS 2022, which I have. This is important because the course uses an earlier form of
+Visual Studio which has easier access to Web Forms.
+
+PLEASE NOTE.
+
+You do not have to re-install the whole visual studio application.
+
+But you do need to open the intsaller.
+
+Read the instructions in the link carefully, as within the installer you will go to "modify" the install,
+then you will go to "Individual components," and then find ".NET Framework project and item templates." This is evidently what I was missing, even though I installed every workload related to web dev and C#.
+
+This will be a huge relief, though, as it looks like it'll allow me to figure out why I couldn't find
+the simple option for "web forms" that the course clearly had when I clearly didn't.
