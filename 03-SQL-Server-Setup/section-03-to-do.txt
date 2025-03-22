@@ -12,4 +12,4 @@
 
 /- reviewed config manager /
 
-- install adventureworks
+/- install adventureworks /
