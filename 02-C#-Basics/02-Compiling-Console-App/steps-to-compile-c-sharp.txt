@@ -1,0 +1,38 @@
+//
+//
+//
+
+open Administrator Command Prompt
+
+It should open to the directory:
+C:\Windows\system32
+
+If it doesn't, that probably means you didn't open as an admin.
+For some reason you can't right click on it from the taskbar to open
+as admin. But you can open as admin by right clicking on it in the
+start menu.
+
+Next:
+
+cd ..
+
+cd Microsoft.NET
+
+cd Framework
+
+// for example, you should get the following output for running "pwd"
+// /c/Windows/Microsoft.NET/Framework
+
+dir // lists all directories in this directory (ok...)
+// ls doesn't work, :(
+
+// csc is "c-sharp-compiler"
+
+cd v4.0.30319 // or whatever is latest version of the compiler
+// mine currently is same compiler
+
+csc /help // tells you the commands you can use with the compiler
+
+run command:
+
+csc /t:exe /out:c:
