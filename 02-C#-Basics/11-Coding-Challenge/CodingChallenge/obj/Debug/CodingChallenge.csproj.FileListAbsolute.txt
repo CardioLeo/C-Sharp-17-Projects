@@ -1,0 +1,14 @@
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\02-C#-Basics\11-Coding-Challenge\MyFirstWebApp\obj\Debug\CodingChallenge.csproj.AssemblyReference.cache
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\02-C#-Basics\11-Coding-Challenge\MyFirstWebApp\obj\Debug\CodingChallenge.csproj.CoreCompileInputs.cache
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\02-C#-Basics\11-Coding-Challenge\MyFirstWebApp\obj\Debug\MyFirstWebApp.dll
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\02-C#-Basics\11-Coding-Challenge\MyFirstWebApp\obj\Debug\MyFirstWebApp.pdb
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\02-C#-Basics\11-Coding-Challenge\MyFirstWebApp\bin\MyFirstWebApp.dll.config
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\02-C#-Basics\11-Coding-Challenge\MyFirstWebApp\bin\MyFirstWebApp.dll
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\02-C#-Basics\11-Coding-Challenge\MyFirstWebApp\bin\MyFirstWebApp.pdb
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\02-C#-Basics\11-Coding-Challenge\CodingChallenge\bin\MyFirstWebApp.dll.config
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\02-C#-Basics\11-Coding-Challenge\CodingChallenge\bin\MyFirstWebApp.dll
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\02-C#-Basics\11-Coding-Challenge\CodingChallenge\bin\MyFirstWebApp.pdb
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\02-C#-Basics\11-Coding-Challenge\CodingChallenge\obj\Debug\CodingChallenge.csproj.AssemblyReference.cache
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\02-C#-Basics\11-Coding-Challenge\CodingChallenge\obj\Debug\CodingChallenge.csproj.CoreCompileInputs.cache
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\02-C#-Basics\11-Coding-Challenge\CodingChallenge\obj\Debug\MyFirstWebApp.dll
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\02-C#-Basics\11-Coding-Challenge\CodingChallenge\obj\Debug\MyFirstWebApp.pdb

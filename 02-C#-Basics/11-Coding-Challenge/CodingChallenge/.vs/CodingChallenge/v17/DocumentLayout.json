@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\02-C#-Basics\\11-Coding-Challenge\\CodingChallenge\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{567E7C8E-2202-4C31-A61F-B546C4921D53}|CodingChallenge.csproj|c:\\users\\william\\documents\\coding\\languages\\c-sharp\\c-sharp-17-projects\\02-c#-basics\\11-coding-challenge\\codingchallenge\\howmuch.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{567E7C8E-2202-4C31-A61F-B546C4921D53}|CodingChallenge.csproj|solutionrelative:howmuch.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567E7C8E-2202-4C31-A61F-B546C4921D53}|MyFirstWebApp.csproj|C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\02-C#-Basics\\11-Coding-Challenge\\CodingChallenge\\howmuch.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{567E7C8E-2202-4C31-A61F-B546C4921D53}|MyFirstWebApp.csproj|solutionrelative:howmuch.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HowMuch.aspx",
+              "DocumentMoniker": "C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\02-C#-Basics\\11-Coding-Challenge\\CodingChallenge\\HowMuch.aspx",
+              "RelativeDocumentMoniker": "HowMuch.aspx",
+              "ToolTip": "C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\02-C#-Basics\\11-Coding-Challenge\\CodingChallenge\\HowMuch.aspx",
+              "RelativeToolTip": "HowMuch.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-22T08:15:40.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HowMuch.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\02-C#-Basics\\11-Coding-Challenge\\CodingChallenge\\HowMuch.aspx.cs",
+              "RelativeDocumentMoniker": "HowMuch.aspx.cs",
+              "ToolTip": "C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\02-C#-Basics\\11-Coding-Challenge\\CodingChallenge\\HowMuch.aspx.cs",
+              "RelativeToolTip": "HowMuch.aspx.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T07:28:34.77Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
