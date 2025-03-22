@@ -1,0 +1,1 @@
+This video did teach me some helpful details, like about what the .vs folder is (which git generally refuses to track on Windows). That said, I did what I almost never do, and I listened to this video at like 2x or 1.75x speed, because frankly most of it I already roughly knew.
