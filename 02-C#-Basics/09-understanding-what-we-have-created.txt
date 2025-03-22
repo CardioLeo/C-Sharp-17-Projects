@@ -1,0 +1,1 @@
+This is mostly a placeholder for the nineth video - which roughly went over the theory of what happens between our coding and the compiler and ASP.NET and the Web Browser. It was very basic - which is fine. It was appropriate to a beginner, but I've thankfully been able to study it a little more so far.
