@@ -4,7 +4,7 @@
 
 /- Install '' '' '' /
 
-- download SQL Server Management Studio
+/- download SQL Server Management Studio /
 
 - install SSMS (Management Studio)
 
