@@ -6,7 +6,7 @@
 
 /- download SQL Server Management Studio /
 
-- install SSMS (Management Studio)
+/- install SSMS (Management Studio) /
 
 - connect to SQL server with SSMS
 
