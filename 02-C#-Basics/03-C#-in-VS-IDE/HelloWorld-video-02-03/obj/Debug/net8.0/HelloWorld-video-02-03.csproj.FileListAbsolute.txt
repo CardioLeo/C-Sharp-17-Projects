@@ -1,0 +1,15 @@
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\02-C#-Basics\03-C#-in-VS-IDE\HelloWorld-video-02-03\obj\Debug\net8.0\HelloWorld-video-02-03.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\02-C#-Basics\03-C#-in-VS-IDE\HelloWorld-video-02-03\obj\Debug\net8.0\HelloWorld-video-02-03.AssemblyInfoInputs.cache
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\02-C#-Basics\03-C#-in-VS-IDE\HelloWorld-video-02-03\obj\Debug\net8.0\HelloWorld-video-02-03.AssemblyInfo.cs
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\02-C#-Basics\03-C#-in-VS-IDE\HelloWorld-video-02-03\obj\Debug\net8.0\HelloWorld-video-02-03.csproj.CoreCompileInputs.cache
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\02-C#-Basics\03-C#-in-VS-IDE\HelloWorld-video-02-03\obj\Debug\net8.0\HelloWorld-video-02-03.sourcelink.json
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\02-C#-Basics\03-C#-in-VS-IDE\HelloWorld-video-02-03\bin\Debug\net8.0\HelloWorld-video-02-03.exe
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\02-C#-Basics\03-C#-in-VS-IDE\HelloWorld-video-02-03\bin\Debug\net8.0\HelloWorld-video-02-03.deps.json
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\02-C#-Basics\03-C#-in-VS-IDE\HelloWorld-video-02-03\bin\Debug\net8.0\HelloWorld-video-02-03.runtimeconfig.json
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\02-C#-Basics\03-C#-in-VS-IDE\HelloWorld-video-02-03\bin\Debug\net8.0\HelloWorld-video-02-03.dll
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\02-C#-Basics\03-C#-in-VS-IDE\HelloWorld-video-02-03\bin\Debug\net8.0\HelloWorld-video-02-03.pdb
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\02-C#-Basics\03-C#-in-VS-IDE\HelloWorld-video-02-03\obj\Debug\net8.0\HelloWorld-video-02-03.dll
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\02-C#-Basics\03-C#-in-VS-IDE\HelloWorld-video-02-03\obj\Debug\net8.0\refint\HelloWorld-video-02-03.dll
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\02-C#-Basics\03-C#-in-VS-IDE\HelloWorld-video-02-03\obj\Debug\net8.0\HelloWorld-video-02-03.pdb
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\02-C#-Basics\03-C#-in-VS-IDE\HelloWorld-video-02-03\obj\Debug\net8.0\HelloWorld-video-02-03.genruntimeconfig.cache
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\02-C#-Basics\03-C#-in-VS-IDE\HelloWorld-video-02-03\obj\Debug\net8.0\ref\HelloWorld-video-02-03.dll

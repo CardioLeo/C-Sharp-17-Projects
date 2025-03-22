@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "HelloWorld-video-02-03/1.0.0": {
+        "runtime": {
+          "HelloWorld-video-02-03.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HelloWorld-video-02-03/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
