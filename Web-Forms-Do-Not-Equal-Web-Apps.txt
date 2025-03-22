@@ -1,0 +1,8 @@
+read the title -
+
+when creating project, make sure that you are choosing the correct type; for intsance, the course doesn't use Blazor apps.
+
+But furthermore, you sometimes have to look a bit for the correct project template within Visual Studio. That is,
+you might have to type "ASP.NET web framework" into the search bar, make sure you don't merely pick the Blazor or Razor options, nor the one that explicitly mentions web forms.
+
+Then, to take it a step further, in the next box that appears (if you select the right option), you have to make sure you select empty template -- but not only that! You also have to make sure to check the box for web forms if you want to use web forms going forward. Pay attention to what they say in the video.
