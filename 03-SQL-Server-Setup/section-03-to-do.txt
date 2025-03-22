@@ -1,0 +1,15 @@
+//
+
+/- download SQL Server 2022 /
+
+/- Install '' '' '' /
+
+- download SQL Server Management Studio
+
+- install SSMS (Management Studio)
+
+- connect to SQL server with SSMS
+
+- config manager?
+
+- install adventureworks
