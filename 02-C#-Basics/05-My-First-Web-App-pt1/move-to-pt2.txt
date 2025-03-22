@@ -1,0 +1,9 @@
+//
+//
+//
+
+just a note to say you might as well just move to part two of the video as
+there's not really a significant amount left to do in part one that won't
+need to be done just as well in part two - because you had to delete the old
+project precisely because it didn't even have the right stuff downloaded to
+be based on.
