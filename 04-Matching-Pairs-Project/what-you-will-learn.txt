@@ -1,0 +1,8 @@
+what you will learn:
+
+- store objects like icons in an list object
+- use a foreach loop to iterate through items in a list
+- keep track of a form's state by using reference variables
+- build an event handler to respond to events
+- create a timer that fires an event after a time interval
+- add controls to a form, from the visual studio IDE
