@@ -1,5 +1,0 @@
-there is an application file in each given project, inside the Debug file, a .net file whose exact name I don't remember, and then a third file, which I believe is the bin file. I've tested it for several of the pseudo-projects so far, and it has worked for all of them except for the console app.
-
-this file can be double-clicked as an executable and will run without opening Visual Studio at all.
-
-Definitely good to know
