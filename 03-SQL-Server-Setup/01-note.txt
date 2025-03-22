@@ -1,0 +1,9 @@
+wow, SQL Server used to be Windows only!
+
+Structured Query Language, is what SQL stands for
+
+Microsoft's version of this is: Transact-SQL, or T-SQL
+
+huh.
+
+So... wait, did SQL originate with Microsoft or not? Or was it only SQL-Server, not SQL?
