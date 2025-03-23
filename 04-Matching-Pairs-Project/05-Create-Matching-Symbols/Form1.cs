@@ -46,5 +46,20 @@ namespace MatchingPairsGame
                 }
             }
         }
+
+        private void label_click(object sender, EventArgs e)
+        {
+            // a stub, an empty method for the event handler
+            Label clickedLabel = sender as Label;
+            if (clickedLabel != null)
+            {
+                //if (clickedLabel.ForeColor == Color.Black)
+                    //return;
+                    // I commented out the above two lines
+                    // because I wasn't sure they actually did anything
+                    // for him... not yet, anyways
+                clickedLabel.ForeColor = Color.Black;
+            }
+        }
     }
 }
