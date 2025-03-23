@@ -20,6 +20,7 @@ namespace MatchingPairsGame
         // 
         Label firstClicked = null;
         Label secondClicked = null;
+        // int matchFound = 0;
 
         // create random object to generate random shapes, or icons
         Random random = new Random();
@@ -85,6 +86,8 @@ namespace MatchingPairsGame
                 secondClicked = clickedLabel;
                 secondClicked.ForeColor = Color.Black;
 
+                CheckForWinner();
+
                 if (firstClicked.Text == secondClicked.Text)
                 {
                     firstClicked = null;
@@ -110,6 +113,24 @@ namespace MatchingPairsGame
             // resets variable again to be clicked on
             firstClicked = null;
             secondClicked = null;
+        }
+
+        // check whether the game has been completed by all icon images being matched
+        private void CheckForWinner()
+        {
+            foreach (Control control in tableLayoutPanel1.Controls)
+            {
+                Label iconLabel = control as Label;
+
+                if (iconLabel != null)
+                {
+                    if (iconLabel.ForeColor == iconLabel.BackColor)
+                        return;
+                }
+            }
+
+            MessageBox.Show("You matched all the icons!", "Congratulations");
+            Close();
         }
     }
 }
