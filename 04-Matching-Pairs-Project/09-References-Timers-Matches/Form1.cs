@@ -12,6 +12,11 @@ namespace MatchingPairsGame
 {
     public partial class Form1: Form
     {
+        // from video 09 of section 04; preping references
+        // 
+        Label firstClicked = null;
+        Label secondClicked = null;
+
         // create random object to generate random shapes, or icons
         Random random = new Random();
         List<string> icons = new List<string>()
@@ -54,11 +59,21 @@ namespace MatchingPairsGame
             if (clickedLabel != null)
             {
                 //if (clickedLabel.ForeColor == Color.Black)
-                    //return;
-                    // I commented out the above two lines
-                    // because I wasn't sure they actually did anything
-                    // for him... not yet, anyways
-                clickedLabel.ForeColor = Color.Black;
+                //return;
+                // I commented out the above two lines
+                // because I wasn't sure they actually did anything
+                // for him... not yet, anyways
+                // yeah; uncommented them and tested them and it doesn't change anything substantially
+
+                // clickedLabel.ForeColor = Color.Black;
+                // now he says we should comment this out
+                // to test the firstClicked etc vars
+                if (firstClicked == null)
+                {
+                    firstClicked = clickedLabel;
+                    firstClicked.ForeColor = Color.Black;
+                    return;
+                }
             }
         }
     }
