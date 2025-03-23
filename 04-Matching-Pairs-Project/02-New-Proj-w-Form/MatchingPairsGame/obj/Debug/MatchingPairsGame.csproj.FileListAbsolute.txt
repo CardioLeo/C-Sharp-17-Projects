@@ -1,0 +1,10 @@
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\04-Matching-Pairs-Project\02-New-Proj-w-Form\MatchingPairsGame\bin\Debug\MatchingPairsGame.exe.config
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\04-Matching-Pairs-Project\02-New-Proj-w-Form\MatchingPairsGame\bin\Debug\MatchingPairsGame.exe
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\04-Matching-Pairs-Project\02-New-Proj-w-Form\MatchingPairsGame\bin\Debug\MatchingPairsGame.pdb
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\04-Matching-Pairs-Project\02-New-Proj-w-Form\MatchingPairsGame\obj\Debug\MatchingPairsGame.csproj.AssemblyReference.cache
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\04-Matching-Pairs-Project\02-New-Proj-w-Form\MatchingPairsGame\obj\Debug\MatchingPairsGame.Form1.resources
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\04-Matching-Pairs-Project\02-New-Proj-w-Form\MatchingPairsGame\obj\Debug\MatchingPairsGame.Properties.Resources.resources
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\04-Matching-Pairs-Project\02-New-Proj-w-Form\MatchingPairsGame\obj\Debug\MatchingPairsGame.csproj.GenerateResource.cache
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\04-Matching-Pairs-Project\02-New-Proj-w-Form\MatchingPairsGame\obj\Debug\MatchingPairsGame.csproj.CoreCompileInputs.cache
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\04-Matching-Pairs-Project\02-New-Proj-w-Form\MatchingPairsGame\obj\Debug\MatchingPairsGame.exe
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\04-Matching-Pairs-Project\02-New-Proj-w-Form\MatchingPairsGame\obj\Debug\MatchingPairsGame.pdb
