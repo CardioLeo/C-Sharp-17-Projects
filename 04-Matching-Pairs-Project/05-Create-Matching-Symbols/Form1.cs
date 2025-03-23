@@ -17,8 +17,8 @@ namespace MatchingPairsGame
         List<string> icons = new List<string>()
         {
             "!", "!",
-            "U", "U",
-            "g", "g",
+            "u", "u", // U and u are fine
+            "U", "U", // don't use lower case g, it's a huge square, too big
             "k", "k",
             "R", "R",
             "7", "7",
@@ -28,6 +28,23 @@ namespace MatchingPairsGame
         public Form1()
         {
             InitializeComponent();
+            AssignIconsToSquares();
+        }
+
+        private void AssignIconsToSquares()
+        {
+            foreach (Control control in tableLayoutPanel1.Controls)
+            {
+                Label iconLabel = control as Label;
+                if (iconLabel != null)
+                {
+                    int randomNumber = random.Next(icons.Count);
+                    iconLabel.Text = icons[randomNumber];
+
+                    iconLabel.ForeColor = iconLabel.BackColor;
+                    icons.RemoveAt(randomNumber);
+                }
+            }
         }
     }
 }
