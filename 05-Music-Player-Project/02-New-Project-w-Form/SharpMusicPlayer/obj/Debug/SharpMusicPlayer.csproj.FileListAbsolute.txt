@@ -1,0 +1,15 @@
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\05-Music-Player-Project\02-New-Project-w-Form\SharpMusicPlayer\bin\Debug\SharpMusicPlayer.exe.config
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\05-Music-Player-Project\02-New-Project-w-Form\SharpMusicPlayer\bin\Debug\SharpMusicPlayer.exe
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\05-Music-Player-Project\02-New-Project-w-Form\SharpMusicPlayer\bin\Debug\SharpMusicPlayer.pdb
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\05-Music-Player-Project\02-New-Project-w-Form\SharpMusicPlayer\bin\Debug\Interop.WMPLib.dll
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\05-Music-Player-Project\02-New-Project-w-Form\SharpMusicPlayer\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\05-Music-Player-Project\02-New-Project-w-Form\SharpMusicPlayer\obj\Debug\SharpMusicPlayer.csproj.AssemblyReference.cache
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\05-Music-Player-Project\02-New-Project-w-Form\SharpMusicPlayer\obj\Debug\Interop.WMPLib.dll
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\05-Music-Player-Project\02-New-Project-w-Form\SharpMusicPlayer\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\05-Music-Player-Project\02-New-Project-w-Form\SharpMusicPlayer\obj\Debug\SharpMusicPlayer.csproj.ResolveComReference.cache
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\05-Music-Player-Project\02-New-Project-w-Form\SharpMusicPlayer\obj\Debug\SharpMusicPlayer.Form1.resources
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\05-Music-Player-Project\02-New-Project-w-Form\SharpMusicPlayer\obj\Debug\SharpMusicPlayer.Properties.Resources.resources
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\05-Music-Player-Project\02-New-Project-w-Form\SharpMusicPlayer\obj\Debug\SharpMusicPlayer.csproj.GenerateResource.cache
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\05-Music-Player-Project\02-New-Project-w-Form\SharpMusicPlayer\obj\Debug\SharpMusicPlayer.csproj.CoreCompileInputs.cache
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\05-Music-Player-Project\02-New-Project-w-Form\SharpMusicPlayer\obj\Debug\SharpMusicPlayer.exe
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\05-Music-Player-Project\02-New-Project-w-Form\SharpMusicPlayer\obj\Debug\SharpMusicPlayer.pdb
