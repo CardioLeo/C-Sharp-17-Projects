@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{FB19EEB8-7F8F-4506-A776-1620222D4546}|SharpMusicPlayer.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB19EEB8-7F8F-4506-A776-1620222D4546}|SharpMusicPlayer.csproj|c:\\users\\william\\documents\\coding\\languages\\c-sharp\\c-sharp-17-projects\\05-music-player-project\\02-new-project-w-form\\sharpmusicplayer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FB19EEB8-7F8F-4506-A776-1620222D4546}|SharpMusicPlayer.csproj|C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\05-Music-Player-Project\\02-New-Project-w-Form\\SharpMusicPlayer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB19EEB8-7F8F-4506-A776-1620222D4546}|SharpMusicPlayer.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -42,8 +42,7 @@
               "RelativeToolTip": "Form1.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAgwBgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T06:45:41.403Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T06:45:41.403Z"
             }
           ]
         }
