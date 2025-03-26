@@ -1,0 +1,8 @@
+What you will learn in this project:
+
+Load images and draw them on the screen
+Create custom classes to hold data
+Generate random numbers
+Work with Arrays (* lists)
+Build and event handler to respond to events
+Work with the timer control
