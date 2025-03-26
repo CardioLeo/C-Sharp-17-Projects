@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\06-Screen-Saver-Project\\02-New-Project-w-Form\\SharpScreenSaver\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B1BF40FD-BE97-4D3A-8881-90A591846649}|SharpScreenSaver.csproj|c:\\users\\william\\documents\\coding\\languages\\c-sharp\\c-sharp-17-projects\\06-screen-saver-project\\02-new-project-w-form\\sharpscreensaver\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B1BF40FD-BE97-4D3A-8881-90A591846649}|SharpScreenSaver.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B1BF40FD-BE97-4D3A-8881-90A591846649}|SharpScreenSaver.csproj|C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\06-Screen-Saver-Project\\02-New-Project-w-Form\\SharpScreenSaver\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1BF40FD-BE97-4D3A-8881-90A591846649}|SharpScreenSaver.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1BF40FD-BE97-4D3A-8881-90A591846649}|SharpScreenSaver.csproj|c:\\users\\william\\documents\\coding\\languages\\c-sharp\\c-sharp-17-projects\\06-screen-saver-project\\02-new-project-w-form\\sharpscreensaver\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1BF40FD-BE97-4D3A-8881-90A591846649}|SharpScreenSaver.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B1BF40FD-BE97-4D3A-8881-90A591846649}|SharpScreenSaver.csproj|c:\\users\\william\\documents\\coding\\languages\\c-sharp\\c-sharp-17-projects\\06-screen-saver-project\\02-new-project-w-form\\sharpscreensaver\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B1BF40FD-BE97-4D3A-8881-90A591846649}|SharpScreenSaver.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\06-Screen-Saver-Project\\02-New-Project-w-Form\\SharpScreenSaver\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -34,13 +34,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\06-Screen-Saver-Project\\02-New-Project-w-Form\\SharpScreenSaver\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\06-Screen-Saver-Project\\02-New-Project-w-Form\\SharpScreenSaver\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAlwB8AAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-26T04:14:16.756Z",
               "EditorCaption": ""
