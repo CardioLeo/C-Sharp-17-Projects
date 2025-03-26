@@ -16,5 +16,20 @@ namespace SharpScreenSaver
         {
             InitializeComponent();
         }
+
+        private void formScreenSaver_KeyDown(object sender, KeyEventArgs e)
+        {
+            Close();
+        }
+
+        private void formScreenSaver_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void formScreenSaver_MouseMove(object sender, MouseEventArgs e)
+        {
+            //Close();
+        }
     }
 }

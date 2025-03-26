@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // formScreenSaver
@@ -42,11 +44,16 @@
             this.Text = "SharpScreenSaver";
             this.TopMost = true;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Click += new System.EventHandler(this.formScreenSaver_Click);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.formScreenSaver_KeyDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.formScreenSaver_MouseMove);
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Timer timer1;
     }
 }
 

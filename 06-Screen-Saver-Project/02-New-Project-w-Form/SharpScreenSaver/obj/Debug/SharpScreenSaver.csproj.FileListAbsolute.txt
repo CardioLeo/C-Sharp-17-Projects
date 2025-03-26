@@ -1,0 +1,10 @@
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\06-Screen-Saver-Project\02-New-Project-w-Form\SharpScreenSaver\bin\Debug\SharpScreenSaver.exe.config
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\06-Screen-Saver-Project\02-New-Project-w-Form\SharpScreenSaver\bin\Debug\SharpScreenSaver.exe
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\06-Screen-Saver-Project\02-New-Project-w-Form\SharpScreenSaver\bin\Debug\SharpScreenSaver.pdb
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\06-Screen-Saver-Project\02-New-Project-w-Form\SharpScreenSaver\obj\Debug\SharpScreenSaver.csproj.AssemblyReference.cache
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\06-Screen-Saver-Project\02-New-Project-w-Form\SharpScreenSaver\obj\Debug\SharpScreenSaver.formScreenSaver.resources
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\06-Screen-Saver-Project\02-New-Project-w-Form\SharpScreenSaver\obj\Debug\SharpScreenSaver.Properties.Resources.resources
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\06-Screen-Saver-Project\02-New-Project-w-Form\SharpScreenSaver\obj\Debug\SharpScreenSaver.csproj.GenerateResource.cache
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\06-Screen-Saver-Project\02-New-Project-w-Form\SharpScreenSaver\obj\Debug\SharpScreenSaver.csproj.CoreCompileInputs.cache
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\06-Screen-Saver-Project\02-New-Project-w-Form\SharpScreenSaver\obj\Debug\SharpScreenSaver.exe
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\06-Screen-Saver-Project\02-New-Project-w-Form\SharpScreenSaver\obj\Debug\SharpScreenSaver.pdb
