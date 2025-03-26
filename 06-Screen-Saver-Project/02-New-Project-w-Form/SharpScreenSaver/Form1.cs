@@ -55,7 +55,7 @@ namespace SharpScreenSaver
             {
                 BGImages.Add(new Bitmap(image));
             }
-            for (int i = 0; i < 50; i++)
+            for (int i = 0; i < 20; i++)
             {
                 BritPic mp = new BritPic();
                 mp.PicNum = i % BGImages.Count;
@@ -63,6 +63,24 @@ namespace SharpScreenSaver
                 mp.Y = rand.Next(0, Height);
 
                 BritPics.Add(mp);
+            }
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            Refresh();
+        }
+
+        private void formScreenSaver_Paint(object sender, PaintEventArgs e)
+        {
+            foreach (BritPic bp in BritPics)
+            {
+                e.Graphics.DrawImage(BGImages[bp.PicNum], bp.X, bp.Y);
+                bp.X -= 2;
+                if (bp.X < -250)
+                {
+                    bp.X = Width + rand.Next(20, 100);
+                }
             }
         }
     }

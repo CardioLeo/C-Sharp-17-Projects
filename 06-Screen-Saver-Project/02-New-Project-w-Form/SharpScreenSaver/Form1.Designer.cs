@@ -32,6 +32,12 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 60000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // formScreenSaver
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -46,6 +52,7 @@
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.formScreenSaver_Load);
             this.Click += new System.EventHandler(this.formScreenSaver_Click);
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.formScreenSaver_Paint);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.formScreenSaver_KeyDown);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.formScreenSaver_MouseMove);
             this.ResumeLayout(false);
