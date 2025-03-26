@@ -44,6 +44,26 @@ namespace SharpScreenSaver
         private void formScreenSaver_MouseMove(object sender, MouseEventArgs e)
         {
             //Close();
+            // doesn't work, because too sensitive?
+        }
+
+        private void formScreenSaver_Load(object sender, EventArgs e)
+        {
+            string[] images = System.IO.Directory.GetFiles("../../../../../../Images-for-Screensaver-Project/"); // he has merely "pics"
+
+            foreach (string image in images)
+            {
+                BGImages.Add(new Bitmap(image));
+            }
+            for (int i = 0; i < 50; i++)
+            {
+                BritPic mp = new BritPic();
+                mp.PicNum = i % BGImages.Count;
+                mp.X = rand.Next(0, Width);
+                mp.Y = rand.Next(0, Height);
+
+                BritPics.Add(mp);
+            }
         }
     }
 }

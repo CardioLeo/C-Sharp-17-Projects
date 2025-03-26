@@ -44,6 +44,7 @@
             this.Text = "SharpScreenSaver";
             this.TopMost = true;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.formScreenSaver_Load);
             this.Click += new System.EventHandler(this.formScreenSaver_Click);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.formScreenSaver_KeyDown);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.formScreenSaver_MouseMove);
