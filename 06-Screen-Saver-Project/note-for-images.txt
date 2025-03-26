@@ -1,0 +1,3 @@
+The images I'll use are collected from the internet - sketches of cathedrals, monasteries, and Tintern Abbey.
+
+However, because I don't want to upload these to Github as though they are all mine, I'm leaving them in a directory just above this course directory, just outside of git tracking.
