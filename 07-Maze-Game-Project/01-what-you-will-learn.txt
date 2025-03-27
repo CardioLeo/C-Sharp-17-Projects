@@ -1,0 +1,8 @@
+you will learn how to:
+
+lay out a form using a panel container
+build a maze using label controls
+write code to show a message box
+set up event handlers for mouse events
+play sounds in your program
+organize your code using classes
