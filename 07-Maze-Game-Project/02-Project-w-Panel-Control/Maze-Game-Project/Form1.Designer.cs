@@ -29,6 +29,11 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label77 = new System.Windows.Forms.Label();
+            this.label76 = new System.Windows.Forms.Label();
+            this.label75 = new System.Windows.Forms.Label();
+            this.label74 = new System.Windows.Forms.Label();
+            this.label73 = new System.Windows.Forms.Label();
             this.finishLabel = new System.Windows.Forms.Label();
             this.startLabel = new System.Windows.Forms.Label();
             this.label72 = new System.Windows.Forms.Label();
@@ -103,11 +108,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.label73 = new System.Windows.Forms.Label();
-            this.label74 = new System.Windows.Forms.Label();
-            this.label75 = new System.Windows.Forms.Label();
-            this.label76 = new System.Windows.Forms.Label();
-            this.label77 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -198,6 +198,51 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(610, 587);
             this.panel1.TabIndex = 0;
+            // 
+            // label77
+            // 
+            this.label77.BackColor = System.Drawing.Color.DarkSalmon;
+            this.label77.Location = new System.Drawing.Point(189, 571);
+            this.label77.Name = "label77";
+            this.label77.Size = new System.Drawing.Size(58, 23);
+            this.label77.TabIndex = 78;
+            this.label77.MouseHover += new System.EventHandler(this.wall_MouseEnter);
+            // 
+            // label76
+            // 
+            this.label76.BackColor = System.Drawing.Color.DarkSalmon;
+            this.label76.Location = new System.Drawing.Point(99, 571);
+            this.label76.Name = "label76";
+            this.label76.Size = new System.Drawing.Size(100, 23);
+            this.label76.TabIndex = 77;
+            this.label76.MouseHover += new System.EventHandler(this.wall_MouseEnter);
+            // 
+            // label75
+            // 
+            this.label75.BackColor = System.Drawing.Color.DarkSalmon;
+            this.label75.Location = new System.Drawing.Point(-13, 420);
+            this.label75.Name = "label75";
+            this.label75.Size = new System.Drawing.Size(25, 87);
+            this.label75.TabIndex = 76;
+            this.label75.MouseHover += new System.EventHandler(this.wall_MouseEnter);
+            // 
+            // label74
+            // 
+            this.label74.BackColor = System.Drawing.Color.DarkSalmon;
+            this.label74.Location = new System.Drawing.Point(-13, 496);
+            this.label74.Name = "label74";
+            this.label74.Size = new System.Drawing.Size(25, 87);
+            this.label74.TabIndex = 75;
+            this.label74.MouseHover += new System.EventHandler(this.wall_MouseEnter);
+            // 
+            // label73
+            // 
+            this.label73.BackColor = System.Drawing.Color.DarkSalmon;
+            this.label73.Location = new System.Drawing.Point(0, 571);
+            this.label73.Name = "label73";
+            this.label73.Size = new System.Drawing.Size(100, 23);
+            this.label73.TabIndex = 74;
+            this.label73.MouseHover += new System.EventHandler(this.wall_MouseEnter);
             // 
             // finishLabel
             // 
@@ -868,51 +913,6 @@
             this.label1.TabIndex = 0;
             this.label1.MouseEnter += new System.EventHandler(this.wall_MouseEnter);
             // 
-            // label73
-            // 
-            this.label73.BackColor = System.Drawing.Color.DarkSalmon;
-            this.label73.Location = new System.Drawing.Point(0, 571);
-            this.label73.Name = "label73";
-            this.label73.Size = new System.Drawing.Size(100, 23);
-            this.label73.TabIndex = 74;
-            this.label73.MouseHover += new System.EventHandler(this.wall_MouseEnter);
-            // 
-            // label74
-            // 
-            this.label74.BackColor = System.Drawing.Color.DarkSalmon;
-            this.label74.Location = new System.Drawing.Point(-13, 496);
-            this.label74.Name = "label74";
-            this.label74.Size = new System.Drawing.Size(25, 87);
-            this.label74.TabIndex = 75;
-            this.label74.MouseHover += new System.EventHandler(this.wall_MouseEnter);
-            // 
-            // label75
-            // 
-            this.label75.BackColor = System.Drawing.Color.DarkSalmon;
-            this.label75.Location = new System.Drawing.Point(-13, 420);
-            this.label75.Name = "label75";
-            this.label75.Size = new System.Drawing.Size(25, 87);
-            this.label75.TabIndex = 76;
-            this.label75.MouseHover += new System.EventHandler(this.wall_MouseEnter);
-            // 
-            // label76
-            // 
-            this.label76.BackColor = System.Drawing.Color.DarkSalmon;
-            this.label76.Location = new System.Drawing.Point(99, 571);
-            this.label76.Name = "label76";
-            this.label76.Size = new System.Drawing.Size(100, 23);
-            this.label76.TabIndex = 77;
-            this.label76.MouseHover += new System.EventHandler(this.wall_MouseEnter);
-            // 
-            // label77
-            // 
-            this.label77.BackColor = System.Drawing.Color.DarkSalmon;
-            this.label77.Location = new System.Drawing.Point(189, 571);
-            this.label77.Name = "label77";
-            this.label77.Size = new System.Drawing.Size(58, 23);
-            this.label77.TabIndex = 78;
-            this.label77.MouseHover += new System.EventHandler(this.wall_MouseEnter);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -923,7 +923,9 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "Maze Game";
+            this.Text = "Sharp Maze Game";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.MouseEnter += new System.EventHandler(this.wall_MouseEnter);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

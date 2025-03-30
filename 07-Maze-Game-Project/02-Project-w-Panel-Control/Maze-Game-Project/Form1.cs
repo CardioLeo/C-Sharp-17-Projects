@@ -59,5 +59,10 @@ namespace Maze_Game_Project
             // this message needs to not be in MoveToStart(), tho, or it gets called when the game starts
             MessageBox.Show("Oh, no! you touched a wall!\n\nYou've been moved back to the start of the maze\n\nPress enter to continue");
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
