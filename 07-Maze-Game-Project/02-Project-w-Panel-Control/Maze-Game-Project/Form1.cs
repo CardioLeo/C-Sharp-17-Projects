@@ -15,6 +15,7 @@ namespace Maze_Game_Project
         public Form1()
         {
             InitializeComponent();
+            MoveToStart();
         }
 
         private void finishLabel_MouseEnter(object sender, EventArgs e)
@@ -26,6 +27,18 @@ namespace Maze_Game_Project
 
             // ends game:
             Close();
+        }
+
+        // method to restart game, put pointer back at startLabel
+        private void MoveToStart()
+        {
+            // move mouse pointer 10 pixels down and to the right of starting point
+            // defines field within which startingPoint exists
+            Point startingPoint = panel1.Location;
+            // locates startingPoint within panel1 at a specific place
+            startingPoint.Offset(60, 30); // he had it at 10, 10, but 60, 30 works better for me
+            // sets cursor position to startingPoint variable
+            Cursor.Position = PointToScreen(startingPoint);
         }
     }
 }
