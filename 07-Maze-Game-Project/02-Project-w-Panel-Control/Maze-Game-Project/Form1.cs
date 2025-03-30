@@ -16,5 +16,16 @@ namespace Maze_Game_Project
         {
             InitializeComponent();
         }
+
+        private void finishLabel_MouseEnter(object sender, EventArgs e)
+        {
+            // writing code to finish game here
+
+            // winning message displayed here:
+            MessageBox.Show("Congratulations! You won!");
+
+            // ends game:
+            Close();
+        }
     }
 }

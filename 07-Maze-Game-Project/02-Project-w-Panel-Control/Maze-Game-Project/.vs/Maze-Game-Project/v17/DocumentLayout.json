@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\07-Maze-Game-Project\\02-Project-w-Panel-Control\\Maze-Game-Project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E45B6F47-A2B6-4561-8280-CF45DA24B023}|Maze-Game-Project.csproj|c:\\users\\william\\documents\\coding\\languages\\c-sharp\\c-sharp-17-projects\\07-maze-game-project\\02-project-w-panel-control\\maze-game-project\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45B6F47-A2B6-4561-8280-CF45DA24B023}|Maze-Game-Project.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E45B6F47-A2B6-4561-8280-CF45DA24B023}|Maze-Game-Project.csproj|c:\\users\\william\\documents\\coding\\languages\\c-sharp\\c-sharp-17-projects\\07-maze-game-project\\02-project-w-panel-control\\maze-game-project\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E45B6F47-A2B6-4561-8280-CF45DA24B023}|Maze-Game-Project.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
@@ -14,11 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\07-Maze-Game-Project\\02-Project-w-Panel-Control\\Maze-Game-Project\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -27,6 +31,19 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-30T03:06:30.622Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\07-Maze-Game-Project\\02-Project-w-Panel-Control\\Maze-Game-Project\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\07-Maze-Game-Project\\02-Project-w-Panel-Control\\Maze-Game-Project\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAD4vxsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T04:36:46.23Z",
+              "EditorCaption": ""
             }
           ]
         }
