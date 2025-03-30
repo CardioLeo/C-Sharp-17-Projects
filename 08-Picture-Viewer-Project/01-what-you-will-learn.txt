@@ -1,0 +1,9 @@
+what you will learn in this project
+
+- create a new project in visual studio
+- add controls like check boxes and buttons to a form
+- position controls on a form using layouts
+- add open file and color dialog boxes to a form
+- write C# code
+- write event handler methods
+- debug (test) an application
