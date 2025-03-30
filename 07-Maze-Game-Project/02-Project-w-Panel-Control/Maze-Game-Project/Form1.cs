@@ -40,5 +40,15 @@ namespace Maze_Game_Project
             // sets cursor position to startingPoint variable
             Cursor.Position = PointToScreen(startingPoint);
         }
+
+        // method for when the walls are touched by the mouse
+        private void wall_MouseEnter(object sender, EventArgs e)
+        {
+            // first, calls same method as when the game starts
+            MoveToStart();
+            // prints message so my kids know what happened
+            // this message needs to not be in MoveToStart(), tho, or it gets called when the game starts
+            MessageBox.Show("Oh, no! you touched a wall!\n\nYou've been moved back to the start of the maze\n\nPress enter to continue");
+        }
     }
 }
