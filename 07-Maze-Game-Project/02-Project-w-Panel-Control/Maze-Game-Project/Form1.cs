@@ -12,15 +12,22 @@ namespace Maze_Game_Project
 {
     public partial class Form1: Form
     {
+        System.Media.SoundPlayer startSoundPlayer = new System.Media.SoundPlayer(@"C:\Windows\Media\ring09.wav");
+        System.Media.SoundPlayer finishSoundPlayer = new System.Media.SoundPlayer(@"C:\Windows\Media\ring10.wav");
+        System.Media.SoundPlayer hitWallSoundPlayer = new System.Media.SoundPlayer(@"C:\Windows\Media\ring08.wav");
         public Form1()
         {
             InitializeComponent();
             MoveToStart();
+            startSoundPlayer.Play();
         }
 
         private void finishLabel_MouseEnter(object sender, EventArgs e)
         {
             // writing code to finish game here
+
+            // play sound at finish of game
+            finishSoundPlayer.Play();
 
             // winning message displayed here:
             MessageBox.Show("Congratulations! You won!");
@@ -44,6 +51,8 @@ namespace Maze_Game_Project
         // method for when the walls are touched by the mouse
         private void wall_MouseEnter(object sender, EventArgs e)
         {
+            // play sound for hitting wall
+            hitWallSoundPlayer.Play();
             // first, calls same method as when the game starts
             MoveToStart();
             // prints message so my kids know what happened
