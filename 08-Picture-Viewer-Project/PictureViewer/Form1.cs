@@ -24,6 +24,21 @@ namespace PictureViewer
 
         private void closeButton_Click(object sender, EventArgs e)
         {
+            Close();
+        }
+
+        private void setBackgroundButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void showPictureButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void clearPictureButton_Click(object sender, EventArgs e)
+        {
 
         }
     }

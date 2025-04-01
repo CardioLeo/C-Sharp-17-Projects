@@ -77,10 +77,10 @@
             this.flowLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.flowLayoutPanel1.Controls.Add(this.closeButton);
+            this.flowLayoutPanel1.Controls.Add(this.showPictureButton);
             this.flowLayoutPanel1.Controls.Add(this.setBackgroundButton);
             this.flowLayoutPanel1.Controls.Add(this.clearPictureButton);
-            this.flowLayoutPanel1.Controls.Add(this.showPictureButton);
+            this.flowLayoutPanel1.Controls.Add(this.closeButton);
             this.flowLayoutPanel1.Location = new System.Drawing.Point(110, 416);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(687, 31);
@@ -89,7 +89,7 @@
             // closeButton
             // 
             this.closeButton.AutoSize = true;
-            this.closeButton.Location = new System.Drawing.Point(3, 3);
+            this.closeButton.Location = new System.Drawing.Point(316, 3);
             this.closeButton.Name = "closeButton";
             this.closeButton.Size = new System.Drawing.Size(86, 25);
             this.closeButton.TabIndex = 3;
@@ -106,6 +106,7 @@
             this.setBackgroundButton.TabIndex = 0;
             this.setBackgroundButton.Text = "Set Background Color";
             this.setBackgroundButton.UseVisualStyleBackColor = true;
+            this.setBackgroundButton.Click += new System.EventHandler(this.setBackgroundButton_Click);
             // 
             // clearPictureButton
             // 
@@ -116,16 +117,18 @@
             this.clearPictureButton.TabIndex = 1;
             this.clearPictureButton.Text = "Clear Picture";
             this.clearPictureButton.UseVisualStyleBackColor = true;
+            this.clearPictureButton.Click += new System.EventHandler(this.clearPictureButton_Click);
             // 
             // showPictureButton
             // 
             this.showPictureButton.AutoSize = true;
-            this.showPictureButton.Location = new System.Drawing.Point(316, 3);
+            this.showPictureButton.Location = new System.Drawing.Point(3, 3);
             this.showPictureButton.Name = "showPictureButton";
             this.showPictureButton.Size = new System.Drawing.Size(86, 25);
             this.showPictureButton.TabIndex = 2;
             this.showPictureButton.Text = " Show Picture";
             this.showPictureButton.UseVisualStyleBackColor = true;
+            this.showPictureButton.Click += new System.EventHandler(this.showPictureButton_Click);
             // 
             // pictureBox1
             // 
