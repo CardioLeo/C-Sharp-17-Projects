@@ -25,11 +25,6 @@ namespace PaintDrawing
             InitializeComponent();
         }
 
-        private void toolStripButton1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void Form1_Load(object sender, EventArgs e)
         {
 
@@ -51,6 +46,58 @@ namespace PaintDrawing
                 drawing = false;
             else
                 drawing = true;
+        }
+
+        private void pictureBox1_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (drawing)
+            {
+                Graphics g = Graphics.FromImage(bmp); // passes essentially global var bmp to this method
+                g.DrawEllipse(p, e.X, e.Y, 3, 1); // the actual command to draw
+                pictureBox1.Image = bmp; // draws the whole image now that it has been drawn onto
+            }
+        }
+
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+            // red button
+            p.Color = Color.Red;
+        }
+
+        private void toolStripButton2_Click(object sender, EventArgs e)
+        {
+            // blue button
+            p.Color = Color.Blue;
+        }
+
+        private void toolStripButton3_Click(object sender, EventArgs e)
+        {
+            // green button
+            p.Color = Color.Green;
+        }
+
+        private void toolStripButton4_Click(object sender, EventArgs e)
+        {
+            // purple button
+            p.Color = Color.Purple;
+        }
+
+        private void toolStripButton5_Click(object sender, EventArgs e)
+        {
+            // lime button
+            p.Color = Color.Lime;
+        }
+
+        private void toolStripButton6_Click(object sender, EventArgs e)
+        {
+            // black button
+            p.Color = Color.Black;
+        }
+
+        private void toolStripButton7_Click(object sender, EventArgs e)
+        {
+            // white button
+            p.Color = Color.White;
         }
     }
 }
