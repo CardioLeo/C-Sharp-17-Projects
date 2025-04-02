@@ -1,0 +1,9 @@
+you will learn:
+
+- create new project in visual studio
+- add controls to a form
+- use bitmap and pen objects (could be interesting!)
+- use mouse events
+- write C# code
+- write event handler methods
+- debug (test) an application
