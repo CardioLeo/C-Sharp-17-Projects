@@ -99,5 +99,31 @@ namespace PaintDrawing
             // white button
             p.Color = Color.White;
         }
+
+        private void saveAsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // event handler for when clicking "Save As" in file menu
+            SaveFileDialog saveFileDialog1 = new SaveFileDialog();
+            // variable to store various types of file formats we can save
+            saveFileDialog1.Filter = "JPEG Image | *.jpg | *.jpeg | Bitmap Image | *.bmp |";
+            saveFileDialog1.Title = "Save an Image file";
+            saveFileDialog1.ShowDialog();
+
+            if (saveFileDialog1.FileName != "")
+                System.IO.FileStream fs = (System.IO.FileStream)saveFileDialog1.OpenFile();
+                    // line above doesn't look right, but it's what he has when he last runs the project
+                    // unfortunately this doesn't work, and .NET knows it, I know it; the instructor doesn't know it,
+                    // or anyways he doesn't say anything about it; I'm too tired right now to do anything about it, though;
+                    // I've already spent awhile trying to figure this out and need to go to sleep
+                switch (saveFileDialog1.FilterIndex)
+                {
+                    case 1:
+                        this.pictureBox1.Image.Save(fs, System.Drawing.Imaging.ImageFormat.Jpeg);
+                        break;
+                    case 2:
+                        this.pictureBox1.Image.Save(fs, System.Drawing.Imaging.ImageFormat.Bmp);
+                        break;
+                }
+        }
     }
 }
