@@ -1,0 +1,10 @@
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\08-Picture-Viewer-Project\CurencyConverter\bin\Debug\CurencyConverter.exe.config
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\08-Picture-Viewer-Project\CurencyConverter\bin\Debug\CurencyConverter.exe
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\08-Picture-Viewer-Project\CurencyConverter\bin\Debug\CurencyConverter.pdb
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\08-Picture-Viewer-Project\CurencyConverter\obj\Debug\CurencyConverter.csproj.AssemblyReference.cache
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\08-Picture-Viewer-Project\CurencyConverter\obj\Debug\CurencyConverter.Properties.Resources.resources
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\08-Picture-Viewer-Project\CurencyConverter\obj\Debug\CurencyConverter.csproj.GenerateResource.cache
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\08-Picture-Viewer-Project\CurencyConverter\obj\Debug\CurencyConverter.csproj.CoreCompileInputs.cache
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\08-Picture-Viewer-Project\CurencyConverter\obj\Debug\CurencyConverter.exe
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\08-Picture-Viewer-Project\CurencyConverter\obj\Debug\CurencyConverter.pdb
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\08-Picture-Viewer-Project\CurencyConverter\obj\Debug\CurencyConverter.currencyConverterForm.resources
