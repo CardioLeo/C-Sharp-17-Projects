@@ -1,6 +1,6 @@
 I found a problem.
 
-The link for the actual currency converter is:
+The link for the actual currency converter is (or was):
 
 https://www.google.co.uk/finance/converter
 
@@ -15,3 +15,5 @@ I might just have to write my own logic and code to make this work - but I might
 We'll see if there are any easier work-arounds. For instance at this live Google link:
 
 https://www.google.com/finance/markets/currencies?hl=en
+
+[Update: no, that second link won't really work and I don't see any easy work-arounds; I'll have to engineer my own solution after finishing the rest of the course.]
