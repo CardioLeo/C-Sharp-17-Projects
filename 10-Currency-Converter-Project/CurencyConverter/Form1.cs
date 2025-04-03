@@ -16,5 +16,10 @@ namespace CurencyConverter
         {
             InitializeComponent();
         }
+
+        private void btnConverter_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Navigate("https://www.google.com/finance/markets/currencies?hl=en");
+        }
     }
 }

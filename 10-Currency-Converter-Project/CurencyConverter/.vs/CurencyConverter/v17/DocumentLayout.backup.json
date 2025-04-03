@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\08-Picture-Viewer-Project\\CurencyConverter\\",
+  "WorkspaceRootPath": "C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\10-Currency-Converter-Project\\CurencyConverter\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C0DDF210-D73C-40CF-99FF-1034B082E15D}|CurencyConverter.csproj|c:\\users\\william\\documents\\coding\\languages\\c-sharp\\c-sharp-17-projects\\08-picture-viewer-project\\curencyconverter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C0DDF210-D73C-40CF-99FF-1034B082E15D}|CurencyConverter.csproj|c:\\users\\william\\documents\\coding\\languages\\c-sharp\\c-sharp-17-projects\\10-currency-converter-project\\curencyconverter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C0DDF210-D73C-40CF-99FF-1034B082E15D}|CurencyConverter.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0DDF210-D73C-40CF-99FF-1034B082E15D}|CurencyConverter.csproj|c:\\users\\william\\documents\\coding\\languages\\c-sharp\\c-sharp-17-projects\\10-currency-converter-project\\curencyconverter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0DDF210-D73C-40CF-99FF-1034B082E15D}|CurencyConverter.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,15 +18,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\10-Currency-Converter-Project\\CurencyConverter\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\10-Currency-Converter-Project\\CurencyConverter\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAD4vxkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T05:03:25.798Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\08-Picture-Viewer-Project\\CurencyConverter\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\10-Currency-Converter-Project\\CurencyConverter\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\08-Picture-Viewer-Project\\CurencyConverter\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\10-Currency-Converter-Project\\CurencyConverter\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T03:55:14.757Z",
