@@ -1,0 +1,5 @@
+You will learn how to:
+
+- create a new project in visual studio
+- add web browser control to a form
+- debug (test) an application
