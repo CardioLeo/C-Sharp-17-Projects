@@ -1,0 +1,17 @@
+I found a problem.
+
+The link for the actual currency converter is:
+
+https://www.google.co.uk/finance/converter
+
+but it appears that since this course has come out, Google has discontinued that product.
+
+This is a problem specifically because the bulk of this project is basically importing Google's currency converter into our microsoft form.
+
+I... have a feeling this could be a lot more complicated.
+
+I might just have to write my own logic and code to make this work - but I might also put it off until I finish the course.
+
+We'll see if there are any easier work-arounds. For instance at this live Google link:
+
+https://www.google.com/finance/markets/currencies?hl=en
