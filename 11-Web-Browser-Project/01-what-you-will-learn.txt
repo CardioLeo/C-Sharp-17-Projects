@@ -1,0 +1,7 @@
+You will learn how to:
+
+- embed and control internet explorer [presumably edge in 2025] in your program
+ [ha, so... we're just abstracting functionality in a messy way]
+- read information back from internet explorer
+- use toolbar to organize the interface elements
+- create a context menu to assist users with finding options
