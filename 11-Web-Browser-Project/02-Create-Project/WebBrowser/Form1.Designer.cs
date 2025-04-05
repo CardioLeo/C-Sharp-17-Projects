@@ -30,14 +30,14 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.btnBackward = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.btnForward = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.webBrowser1 = new System.Windows.Forms.WebBrowser();
+            this.btnGoTo = new System.Windows.Forms.ToolStripButton();
             this.cboLocation = new System.Windows.Forms.ToolStripComboBox();
-            this.btnBackward = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            this.webBrowser1 = new System.Windows.Forms.WebBrowser();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -48,47 +48,15 @@
             this.toolStripSeparator1,
             this.btnForward,
             this.toolStripSeparator2,
-            this.toolStripButton1,
+            this.btnGoTo,
             this.cboLocation,
             this.toolStripSeparator3});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(562, 25);
+            this.toolStrip1.Padding = new System.Windows.Forms.Padding(3);
+            this.toolStrip1.Size = new System.Drawing.Size(562, 29);
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
-            // 
-            // btnForward
-            // 
-            this.btnForward.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.btnForward.Image = ((System.Drawing.Image)(resources.GetObject("btnForward.Image")));
-            this.btnForward.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.btnForward.Name = "btnForward";
-            this.btnForward.Size = new System.Drawing.Size(54, 22);
-            this.btnForward.Text = "Forward";
-            // 
-            // toolStripSeparator2
-            // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
-            // 
-            // webBrowser1
-            // 
-            this.webBrowser1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.webBrowser1.Location = new System.Drawing.Point(0, 25);
-            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
-            this.webBrowser1.Name = "webBrowser1";
-            this.webBrowser1.Size = new System.Drawing.Size(562, 523);
-            this.webBrowser1.TabIndex = 1;
-            // 
-            // cboLocation
-            // 
-            this.cboLocation.Name = "cboLocation";
-            this.cboLocation.Size = new System.Drawing.Size(121, 25);
             // 
             // btnBackward
             // 
@@ -96,23 +64,59 @@
             this.btnBackward.Image = ((System.Drawing.Image)(resources.GetObject("btnBackward.Image")));
             this.btnBackward.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnBackward.Name = "btnBackward";
-            this.btnBackward.Size = new System.Drawing.Size(62, 22);
+            this.btnBackward.Size = new System.Drawing.Size(62, 20);
             this.btnBackward.Text = "Backward";
             this.btnBackward.Click += new System.EventHandler(this.toolStripButton1_Click);
             // 
-            // toolStripButton1
+            // toolStripSeparator1
             // 
-            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
-            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(60, 22);
-            this.toolStripButton1.Text = "go-to - >";
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 23);
+            // 
+            // btnForward
+            // 
+            this.btnForward.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.btnForward.Image = ((System.Drawing.Image)(resources.GetObject("btnForward.Image")));
+            this.btnForward.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnForward.Name = "btnForward";
+            this.btnForward.Size = new System.Drawing.Size(54, 20);
+            this.btnForward.Text = "Forward";
+            this.btnForward.Click += new System.EventHandler(this.btnForward_Click);
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 23);
+            // 
+            // btnGoTo
+            // 
+            this.btnGoTo.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.btnGoTo.Image = ((System.Drawing.Image)(resources.GetObject("btnGoTo.Image")));
+            this.btnGoTo.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnGoTo.Name = "btnGoTo";
+            this.btnGoTo.Size = new System.Drawing.Size(60, 20);
+            this.btnGoTo.Text = "go-to - >";
+            this.btnGoTo.Click += new System.EventHandler(this.toolStripButton1_Click_1);
+            // 
+            // cboLocation
+            // 
+            this.cboLocation.Name = "cboLocation";
+            this.cboLocation.Size = new System.Drawing.Size(121, 23);
+            this.cboLocation.KeyDown += new System.Windows.Forms.KeyEventHandler(this.cboLocation_KeyDown);
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 25);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 23);
+            // 
+            // webBrowser1
+            // 
+            this.webBrowser1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.webBrowser1.Location = new System.Drawing.Point(0, 29);
+            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
+            this.webBrowser1.Name = "webBrowser1";
+            this.webBrowser1.Size = new System.Drawing.Size(562, 519);
+            this.webBrowser1.TabIndex = 1;
             // 
             // frmMain
             // 
@@ -139,7 +143,7 @@
         private System.Windows.Forms.WebBrowser webBrowser1;
         private System.Windows.Forms.ToolStripComboBox cboLocation;
         private System.Windows.Forms.ToolStripButton btnBackward;
-        private System.Windows.Forms.ToolStripButton toolStripButton1;
+        private System.Windows.Forms.ToolStripButton btnGoTo;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
     }
 }

@@ -17,9 +17,33 @@ namespace WebBrowser
             InitializeComponent();
         }
 
+
+        private void cboLocation_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                // if enter key is pressed...
+                // go to the text in the combo box
+                webBrowser1.Navigate(cboLocation.Text);
+            }
+        }
+
+        // Visual Studio is kind of stupid about naming things
+        // but immediately below is the btnBackward_Click function
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
+            webBrowser1.GoBack();
+        }
 
+        private void btnForward_Click(object sender, EventArgs e)
+        {
+            webBrowser1.GoForward();
+        }
+
+        // "go-to ->" button code follows next ("btnGoTo")
+        private void toolStripButton1_Click_1(object sender, EventArgs e)
+        {
+            webBrowser1.Navigate(cboLocation.Text);
         }
     }
 }
