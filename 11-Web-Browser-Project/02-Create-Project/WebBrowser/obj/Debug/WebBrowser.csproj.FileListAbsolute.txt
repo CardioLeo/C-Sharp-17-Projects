@@ -1,0 +1,10 @@
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\11-Web-Browser-Project\02-Create-Project\WebBrowser\bin\Debug\WebBrowser.exe.config
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\11-Web-Browser-Project\02-Create-Project\WebBrowser\bin\Debug\WebBrowser.exe
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\11-Web-Browser-Project\02-Create-Project\WebBrowser\bin\Debug\WebBrowser.pdb
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\11-Web-Browser-Project\02-Create-Project\WebBrowser\obj\Debug\WebBrowser.csproj.AssemblyReference.cache
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\11-Web-Browser-Project\02-Create-Project\WebBrowser\obj\Debug\WebBrowser.frmMain.resources
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\11-Web-Browser-Project\02-Create-Project\WebBrowser\obj\Debug\WebBrowser.Properties.Resources.resources
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\11-Web-Browser-Project\02-Create-Project\WebBrowser\obj\Debug\WebBrowser.csproj.GenerateResource.cache
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\11-Web-Browser-Project\02-Create-Project\WebBrowser\obj\Debug\WebBrowser.csproj.CoreCompileInputs.cache
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\11-Web-Browser-Project\02-Create-Project\WebBrowser\obj\Debug\WebBrowser.exe
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\11-Web-Browser-Project\02-Create-Project\WebBrowser\obj\Debug\WebBrowser.pdb
