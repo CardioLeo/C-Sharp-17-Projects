@@ -45,5 +45,11 @@ namespace WebBrowser
         {
             webBrowser1.Navigate(cboLocation.Text);
         }
+
+        // code to update form1 title when new web page loaded
+        private void webBrowser1_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
+        {
+            Text = "Sharp Web Browser - " + webBrowser1.DocumentTitle;
+        }
     }
 }
