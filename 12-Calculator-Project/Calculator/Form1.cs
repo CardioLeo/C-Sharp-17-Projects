@@ -22,19 +22,10 @@ namespace Calculator
 
         }
 
-        private void button8_Click(object sender, EventArgs e)
+        private void button_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void button7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button9_Click(object sender, EventArgs e)
-        {
-
-        }
+            Button button = (Button)sender;
+            resultBox.Text = resultBox.Text + button.Text;
+        }        
     }
 }

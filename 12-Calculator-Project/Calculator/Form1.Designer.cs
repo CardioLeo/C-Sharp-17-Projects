@@ -60,6 +60,7 @@
             this.button1.Text = "1";
             this.button1.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button_Click);
             // 
             // button2
             // 
@@ -73,6 +74,7 @@
             this.button2.Text = "2";
             this.button2.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button_Click);
             // 
             // button3
             // 
@@ -86,6 +88,7 @@
             this.button3.Text = "3";
             this.button3.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button_Click);
             // 
             // button4
             // 
@@ -99,6 +102,7 @@
             this.button4.Text = "4";
             this.button4.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button_Click);
             // 
             // button5
             // 
@@ -112,6 +116,7 @@
             this.button5.Text = "5";
             this.button5.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button_Click);
             // 
             // button6
             // 
@@ -125,6 +130,7 @@
             this.button6.Text = "6";
             this.button6.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button_Click);
             // 
             // button7
             // 
@@ -138,7 +144,7 @@
             this.button7.Text = "7";
             this.button7.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             this.button7.UseVisualStyleBackColor = false;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
+            this.button7.Click += new System.EventHandler(this.button_Click);
             // 
             // button8
             // 
@@ -152,7 +158,7 @@
             this.button8.Text = "8";
             this.button8.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             this.button8.UseVisualStyleBackColor = false;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
+            this.button8.Click += new System.EventHandler(this.button_Click);
             // 
             // button9
             // 
@@ -166,7 +172,7 @@
             this.button9.Text = "9";
             this.button9.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             this.button9.UseVisualStyleBackColor = false;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
+            this.button9.Click += new System.EventHandler(this.button_Click);
             // 
             // button10
             // 
@@ -180,6 +186,7 @@
             this.button10.Text = "0";
             this.button10.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             this.button10.UseVisualStyleBackColor = false;
+            this.button10.Click += new System.EventHandler(this.button_Click);
             // 
             // button11
             // 
