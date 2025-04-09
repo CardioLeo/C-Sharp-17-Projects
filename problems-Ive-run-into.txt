@@ -1,0 +1,12 @@
+I now only have eight projects left.
+
+The last four projects have hit snags of various kinds, the paint one through the calculator (off the top of my head).
+
+The Paint project has trouble with saving the art.
+
+The Web browser one has trouble in that it throws various errors about scripts. I don't completely understand.
+
+The Calculator has so many problems and needs to be completely reworked.
+
+However, I wanted to finish the course before moving on, so I figured I would make this document real quick to help myself feel a bit more like I wasn't simply abandoning the problems, and maybe making it easier to see these problems without even opening the project folders.
+
