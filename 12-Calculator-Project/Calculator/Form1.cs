@@ -37,5 +37,11 @@ namespace Calculator
         {
 
         }
+
+        private void clearButton_Click(object sender, EventArgs e)
+        {
+            resultBox.Clear();
+            resultBox.Text = "0";
+        }
     }
 }

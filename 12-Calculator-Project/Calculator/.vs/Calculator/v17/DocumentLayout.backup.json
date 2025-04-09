@@ -18,21 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\12-Calculator-Project\\Calculator\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\12-Calculator-Project\\Calculator\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAkwCUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T03:14:06.351Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -42,7 +29,21 @@
               "ToolTip": "C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\12-Calculator-Project\\Calculator\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T03:13:31.417Z"
+              "WhenOpened": "2025-04-09T03:13:31.417Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\12-Calculator-Project\\Calculator\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\12-Calculator-Project\\Calculator\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAUwCsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T03:14:06.351Z",
+              "EditorCaption": ""
             }
           ]
         }

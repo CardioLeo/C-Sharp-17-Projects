@@ -45,7 +45,7 @@
             this.button15 = new System.Windows.Forms.Button();
             this.button16 = new System.Windows.Forms.Button();
             this.resultBox = new System.Windows.Forms.TextBox();
-            this.button17 = new System.Windows.Forms.Button();
+            this.clearButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -279,17 +279,18 @@
             this.resultBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.resultBox.TextChanged += new System.EventHandler(this.resultBox_TextChanged);
             // 
-            // button17
+            // clearButton
             // 
-            this.button17.BackColor = System.Drawing.Color.LightCoral;
-            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button17.Font = new System.Drawing.Font("Miriam Mono CLM", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
-            this.button17.Location = new System.Drawing.Point(201, 83);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(49, 30);
-            this.button17.TabIndex = 17;
-            this.button17.Text = "Clear";
-            this.button17.UseVisualStyleBackColor = false;
+            this.clearButton.BackColor = System.Drawing.Color.LightCoral;
+            this.clearButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.clearButton.Font = new System.Drawing.Font("Miriam Mono CLM", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.clearButton.Location = new System.Drawing.Point(201, 83);
+            this.clearButton.Name = "clearButton";
+            this.clearButton.Size = new System.Drawing.Size(49, 30);
+            this.clearButton.TabIndex = 17;
+            this.clearButton.Text = "Clear";
+            this.clearButton.UseVisualStyleBackColor = false;
+            this.clearButton.Click += new System.EventHandler(this.clearButton_Click);
             // 
             // Form1
             // 
@@ -297,7 +298,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSalmon;
             this.ClientSize = new System.Drawing.Size(269, 333);
-            this.Controls.Add(this.button17);
+            this.Controls.Add(this.clearButton);
             this.Controls.Add(this.resultBox);
             this.Controls.Add(this.button16);
             this.Controls.Add(this.button15);
@@ -345,7 +346,7 @@
         private System.Windows.Forms.Button button15;
         private System.Windows.Forms.Button button16;
         private System.Windows.Forms.TextBox resultBox;
-        private System.Windows.Forms.Button button17;
+        private System.Windows.Forms.Button clearButton;
     }
 }
 
