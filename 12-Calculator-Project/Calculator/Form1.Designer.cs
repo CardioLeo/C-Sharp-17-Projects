@@ -39,7 +39,7 @@
             this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
+            this.equalsButton = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
             this.button15 = new System.Windows.Forms.Button();
@@ -201,18 +201,19 @@
             this.button11.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             this.button11.UseVisualStyleBackColor = false;
             // 
-            // button12
+            // equalsButton
             // 
-            this.button12.BackColor = System.Drawing.Color.LightCoral;
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button12.Font = new System.Drawing.Font("Miriam Mono CLM", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
-            this.button12.Location = new System.Drawing.Point(133, 262);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(47, 47);
-            this.button12.TabIndex = 11;
-            this.button12.Text = "=";
-            this.button12.TextAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.button12.UseVisualStyleBackColor = false;
+            this.equalsButton.BackColor = System.Drawing.Color.LightCoral;
+            this.equalsButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.equalsButton.Font = new System.Drawing.Font("Miriam Mono CLM", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.equalsButton.Location = new System.Drawing.Point(133, 262);
+            this.equalsButton.Name = "equalsButton";
+            this.equalsButton.Size = new System.Drawing.Size(47, 47);
+            this.equalsButton.TabIndex = 11;
+            this.equalsButton.Text = "=";
+            this.equalsButton.TextAlign = System.Drawing.ContentAlignment.BottomRight;
+            this.equalsButton.UseVisualStyleBackColor = false;
+            this.equalsButton.Click += new System.EventHandler(this.equalsButton_Click);
             // 
             // button13
             // 
@@ -226,6 +227,7 @@
             this.button13.Text = "/";
             this.button13.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             this.button13.UseVisualStyleBackColor = false;
+            this.button13.Click += new System.EventHandler(this.operator_Click);
             // 
             // button14
             // 
@@ -239,6 +241,7 @@
             this.button14.Text = "*";
             this.button14.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             this.button14.UseVisualStyleBackColor = false;
+            this.button14.Click += new System.EventHandler(this.operator_Click);
             // 
             // button15
             // 
@@ -252,6 +255,7 @@
             this.button15.Text = "-";
             this.button15.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             this.button15.UseVisualStyleBackColor = false;
+            this.button15.Click += new System.EventHandler(this.operator_Click);
             // 
             // button16
             // 
@@ -265,6 +269,7 @@
             this.button16.Text = "+";
             this.button16.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             this.button16.UseVisualStyleBackColor = false;
+            this.button16.Click += new System.EventHandler(this.operator_Click);
             // 
             // resultBox
             // 
@@ -304,7 +309,7 @@
             this.Controls.Add(this.button15);
             this.Controls.Add(this.button14);
             this.Controls.Add(this.button13);
-            this.Controls.Add(this.button12);
+            this.Controls.Add(this.equalsButton);
             this.Controls.Add(this.button11);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.button9);
@@ -340,7 +345,7 @@
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button equalsButton;
         private System.Windows.Forms.Button button13;
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.Button button15;
