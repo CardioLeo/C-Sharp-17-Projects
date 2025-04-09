@@ -277,6 +277,7 @@
             this.resultBox.TabIndex = 16;
             this.resultBox.Text = "0";
             this.resultBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.resultBox.TextChanged += new System.EventHandler(this.resultBox_TextChanged);
             // 
             // button17
             // 

@@ -24,8 +24,18 @@ namespace Calculator
 
         private void button_Click(object sender, EventArgs e)
         {
+            if (resultBox.Text == "0")
+            {
+                resultBox.Clear();
+            }
+
             Button button = (Button)sender;
             resultBox.Text = resultBox.Text + button.Text;
-        }        
+        }
+
+        private void resultBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
