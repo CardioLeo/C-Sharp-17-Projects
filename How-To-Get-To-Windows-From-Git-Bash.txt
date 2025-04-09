@@ -6,3 +6,5 @@ as I just discovered
 
 2. open git bash app as administrator
 then you have permission to make documents like the present one
+
+[Something else I've learned is that you can change the default setting in properties so that it usually opens git bash as administrator, so now I can actually use it while pinned to my desktop taskbar without needing to open it in a more tedious way every single time. They say laziness is a virtue in coding.]
