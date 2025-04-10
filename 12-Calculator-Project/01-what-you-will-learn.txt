@@ -1,8 +1,0 @@
-What you will learn:
-
-- add controls like buttons and textboxes to a form
-- create variables
-- write conditional statements
-- write switch statements
-- use arithmetic operators
-- write code for event handler methods
