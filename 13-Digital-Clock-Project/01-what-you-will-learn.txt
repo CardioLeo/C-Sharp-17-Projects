@@ -1,0 +1,8 @@
+what you will learn:
+
+- create digital clock that will display current date and day of the week
+- add various label controls to a form
+- add a timer to the form
+- write code for the tick event handler
+- write conditional code
+- test your application in debug environment
