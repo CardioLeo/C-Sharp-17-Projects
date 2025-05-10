@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\13-Digital-Clock-Project\\02-create-the-form\\SharpSimpleClock\\",
+  "WorkspaceRootPath": "C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\14-Simple-Clock-Project\\02-create-form\\SharpSimpleClock\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{43386535-4E36-4C4E-BF01-B85972E89F43}|SharpSimpleClock.csproj|c:\\users\\william\\documents\\coding\\languages\\c-sharp\\c-sharp-17-projects\\13-digital-clock-project\\02-create-the-form\\sharpsimpleclock\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{43386535-4E36-4C4E-BF01-B85972E89F43}|SharpSimpleClock.csproj|c:\\users\\william\\documents\\coding\\languages\\c-sharp\\c-sharp-17-projects\\14-simple-clock-project\\02-create-form\\sharpsimpleclock\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{43386535-4E36-4C4E-BF01-B85972E89F43}|SharpSimpleClock.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -20,9 +20,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\13-Digital-Clock-Project\\02-create-the-form\\SharpSimpleClock\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\14-Simple-Clock-Project\\02-create-form\\SharpSimpleClock\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\13-Digital-Clock-Project\\02-create-the-form\\SharpSimpleClock\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\14-Simple-Clock-Project\\02-create-form\\SharpSimpleClock\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-10T20:04:51.894Z",
