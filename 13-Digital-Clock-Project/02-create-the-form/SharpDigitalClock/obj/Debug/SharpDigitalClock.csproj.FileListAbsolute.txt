@@ -1,0 +1,10 @@
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\13-Digital-Clock-Project\02-create-the-form\SharpDigitalClock\bin\Debug\SharpDigitalClock.exe.config
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\13-Digital-Clock-Project\02-create-the-form\SharpDigitalClock\bin\Debug\SharpDigitalClock.exe
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\13-Digital-Clock-Project\02-create-the-form\SharpDigitalClock\bin\Debug\SharpDigitalClock.pdb
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\13-Digital-Clock-Project\02-create-the-form\SharpDigitalClock\obj\Debug\SharpDigitalClock.csproj.AssemblyReference.cache
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\13-Digital-Clock-Project\02-create-the-form\SharpDigitalClock\obj\Debug\SharpDigitalClock.Form1.resources
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\13-Digital-Clock-Project\02-create-the-form\SharpDigitalClock\obj\Debug\SharpDigitalClock.Properties.Resources.resources
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\13-Digital-Clock-Project\02-create-the-form\SharpDigitalClock\obj\Debug\SharpDigitalClock.csproj.GenerateResource.cache
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\13-Digital-Clock-Project\02-create-the-form\SharpDigitalClock\obj\Debug\SharpDigitalClock.csproj.CoreCompileInputs.cache
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\13-Digital-Clock-Project\02-create-the-form\SharpDigitalClock\obj\Debug\SharpDigitalClock.exe
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\13-Digital-Clock-Project\02-create-the-form\SharpDigitalClock\obj\Debug\SharpDigitalClock.pdb

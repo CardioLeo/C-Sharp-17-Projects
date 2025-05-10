@@ -15,6 +15,15 @@ namespace SharpDigitalClock
         public Form1()
         {
             InitializeComponent();
+            timer1.Start();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            hourMinuteLabel.Text = DateTime.Now.ToString("HH:mm");
+            secondsLabel.Text = DateTime.Now.ToString("ss");
+            dateLabel.Text = DateTime.Now.ToString("MM:dd:yyyy");
+            weekDayLabel.Text = DateTime.Now.ToString("dddd");
         }
     }
 }
