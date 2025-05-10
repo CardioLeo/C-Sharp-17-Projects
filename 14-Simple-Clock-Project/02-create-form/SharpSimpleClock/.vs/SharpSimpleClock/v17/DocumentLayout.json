@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{43386535-4E36-4C4E-BF01-B85972E89F43}|SharpSimpleClock.csproj|c:\\users\\william\\documents\\coding\\languages\\c-sharp\\c-sharp-17-projects\\14-simple-clock-project\\02-create-form\\sharpsimpleclock\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{43386535-4E36-4C4E-BF01-B85972E89F43}|SharpSimpleClock.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43386535-4E36-4C4E-BF01-B85972E89F43}|SharpSimpleClock.csproj|c:\\users\\william\\documents\\coding\\languages\\c-sharp\\c-sharp-17-projects\\14-simple-clock-project\\02-create-form\\sharpsimpleclock\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43386535-4E36-4C4E-BF01-B85972E89F43}|SharpSimpleClock.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\14-Simple-Clock-Project\\02-create-form\\SharpSimpleClock\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\14-Simple-Clock-Project\\02-create-form\\SharpSimpleClock\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAIwD0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T20:24:43.419Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,

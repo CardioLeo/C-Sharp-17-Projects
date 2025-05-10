@@ -35,12 +35,11 @@
             // 
             this.label1.Font = new System.Drawing.Font("Bahnschrift", 50F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Bisque;
-            this.label1.Location = new System.Drawing.Point(19, 25);
+            this.label1.Location = new System.Drawing.Point(26, 28);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(278, 90);
             this.label1.TabIndex = 0;
             this.label1.Text = "00:00:00";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 
@@ -54,6 +53,7 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Simple Digital Clock";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }
