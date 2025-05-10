@@ -1,0 +1,1 @@
+Looks like this project is pretty much the same as last project, but just without date, day of the week, year, etc. Only current time in hour, minute, and second
