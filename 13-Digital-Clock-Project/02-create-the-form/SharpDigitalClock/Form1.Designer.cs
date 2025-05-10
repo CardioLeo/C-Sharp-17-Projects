@@ -31,6 +31,7 @@
             this.hourMinute = new System.Windows.Forms.Label();
             this.secondsLabel = new System.Windows.Forms.Label();
             this.dateLabel = new System.Windows.Forms.Label();
+            this.weekDayLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // hourMinute
@@ -57,11 +58,21 @@
             // 
             this.dateLabel.Font = new System.Drawing.Font("Bahnschrift", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateLabel.ForeColor = System.Drawing.Color.DarkSlateBlue;
-            this.dateLabel.Location = new System.Drawing.Point(22, 130);
+            this.dateLabel.Location = new System.Drawing.Point(25, 191);
             this.dateLabel.Name = "dateLabel";
-            this.dateLabel.Size = new System.Drawing.Size(348, 54);
+            this.dateLabel.Size = new System.Drawing.Size(309, 54);
             this.dateLabel.TabIndex = 2;
             this.dateLabel.Text = "January 03 2025";
+            // 
+            // weekDayLabel
+            // 
+            this.weekDayLabel.Font = new System.Drawing.Font("Bahnschrift", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.weekDayLabel.ForeColor = System.Drawing.Color.DarkSlateBlue;
+            this.weekDayLabel.Location = new System.Drawing.Point(25, 137);
+            this.weekDayLabel.Name = "weekDayLabel";
+            this.weekDayLabel.Size = new System.Drawing.Size(217, 54);
+            this.weekDayLabel.TabIndex = 3;
+            this.weekDayLabel.Text = "Saturday";
             // 
             // Form1
             // 
@@ -70,6 +81,7 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.IndianRed;
             this.ClientSize = new System.Drawing.Size(528, 261);
+            this.Controls.Add(this.weekDayLabel);
             this.Controls.Add(this.dateLabel);
             this.Controls.Add(this.secondsLabel);
             this.Controls.Add(this.hourMinute);
@@ -84,6 +96,7 @@
         private System.Windows.Forms.Label hourMinute;
         private System.Windows.Forms.Label secondsLabel;
         private System.Windows.Forms.Label dateLabel;
+        private System.Windows.Forms.Label weekDayLabel;
     }
 }
 
