@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\15-Notepad-Project\\03-creating-new-project\\SharpNotepadApp\\",
+  "WorkspaceRootPath": "C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\15-Notepad-Project\\14-create-a-new-window\\SharpNotepadApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A8536A55-612C-4265-AFDA-40EFE8A841B1}|SharpNotepadApp.csproj|c:\\users\\william\\documents\\coding\\languages\\c-sharp\\c-sharp-17-projects\\15-notepad-project\\03-creating-new-project\\sharpnotepadapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A8536A55-612C-4265-AFDA-40EFE8A841B1}|SharpNotepadApp.csproj|c:\\users\\william\\documents\\coding\\languages\\c-sharp\\c-sharp-17-projects\\15-notepad-project\\14-create-a-new-window\\sharpnotepadapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A8536A55-612C-4265-AFDA-40EFE8A841B1}|SharpNotepadApp.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8536A55-612C-4265-AFDA-40EFE8A841B1}|SharpNotepadApp.csproj|C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\15-Notepad-Project\\03-creating-new-project\\SharpNotepadApp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A8536A55-612C-4265-AFDA-40EFE8A841B1}|SharpNotepadApp.csproj|C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\15-Notepad-Project\\14-create-a-new-window\\SharpNotepadApp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A8536A55-612C-4265-AFDA-40EFE8A841B1}|SharpNotepadApp.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -24,10 +24,10 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\15-Notepad-Project\\03-creating-new-project\\SharpNotepadApp\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\15-Notepad-Project\\14-create-a-new-window\\SharpNotepadApp\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\15-Notepad-Project\\03-creating-new-project\\SharpNotepadApp\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\15-Notepad-Project\\14-create-a-new-window\\SharpNotepadApp\\Form1.cs [Design]*",
+              "RelativeToolTip": "Form1.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-10T20:58:40.494Z",
               "EditorCaption": " [Design]"
@@ -36,11 +36,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\15-Notepad-Project\\03-creating-new-project\\SharpNotepadApp\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\15-Notepad-Project\\14-create-a-new-window\\SharpNotepadApp\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\15-Notepad-Project\\03-creating-new-project\\SharpNotepadApp\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAADgv1QAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\15-Notepad-Project\\14-create-a-new-window\\SharpNotepadApp\\Form1.cs*",
+              "RelativeToolTip": "Form1.cs*",
+              "ViewState": "AgIAADMAAAAAAAAAAAAWwFQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-10T21:53:30.01Z",
               "EditorCaption": ""
