@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -14,6 +15,9 @@ namespace SharpNotepadApp
     {
 
         string OurFilename;
+        string LastFindWord; // word being searched for
+        bool LastFindDown;
+        bool LastFindMatchCase;
         void DoSave(string filename)
         {
             OurFilename = filename;
@@ -58,9 +62,35 @@ namespace SharpNotepadApp
             textBox.Paste();
         }
 
+        public void DoFind(string search, bool down, bool match_case)
+        {
+            LastFindWord = search;
+            LastFindDown = down;
+            LastFindMatchCase = match_case;
+
+            if (down)
+            {
+                if (match_case)
+                {
+                    textBox.Find(search, textBox.SelectionStart + 1, RichTextBoxFinds.MatchCase);
+                }
+                else
+                {
+                    textBox.Find(search, textBox.SelectionStart + 1, RichTextBoxFinds.None);
+                }
+            }
+        }
+
         private void findToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            // textBox.Find();
+            formFind find = new formFind();
+            find.Show(this);
+        }
+
+        private void findNextToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+        //    formMain parent_form = (formMain)Owner;
+        //    parent_form.DoFind(find.textFindWhat.Text, rdoDown.Checked, checkMatchCase.Checked);
         }
 
         private void selectAllToolStripMenuItem_Click(object sender, EventArgs e)

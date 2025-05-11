@@ -34,8 +34,8 @@
             this.textFindWhat = new System.Windows.Forms.TextBox();
             this.checkMatchCase = new System.Windows.Forms.CheckBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.rdoUp = new System.Windows.Forms.RadioButton();
             this.rdoDown = new System.Windows.Forms.RadioButton();
+            this.rdoUp = new System.Windows.Forms.RadioButton();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,6 +56,7 @@
             this.btnCancel.TabIndex = 1;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // label1
             // 
@@ -94,17 +95,6 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Direction";
             // 
-            // rdoUp
-            // 
-            this.rdoUp.AutoSize = true;
-            this.rdoUp.Location = new System.Drawing.Point(23, 25);
-            this.rdoUp.Name = "rdoUp";
-            this.rdoUp.Size = new System.Drawing.Size(39, 17);
-            this.rdoUp.TabIndex = 0;
-            this.rdoUp.TabStop = true;
-            this.rdoUp.Text = "Up";
-            this.rdoUp.UseVisualStyleBackColor = true;
-            // 
             // rdoDown
             // 
             this.rdoDown.AutoSize = true;
@@ -115,6 +105,17 @@
             this.rdoDown.TabStop = true;
             this.rdoDown.Text = "Down";
             this.rdoDown.UseVisualStyleBackColor = true;
+            // 
+            // rdoUp
+            // 
+            this.rdoUp.AutoSize = true;
+            this.rdoUp.Location = new System.Drawing.Point(23, 25);
+            this.rdoUp.Name = "rdoUp";
+            this.rdoUp.Size = new System.Drawing.Size(39, 17);
+            this.rdoUp.TabIndex = 0;
+            this.rdoUp.TabStop = true;
+            this.rdoUp.Text = "Up";
+            this.rdoUp.UseVisualStyleBackColor = true;
             // 
             // formFind
             // 
