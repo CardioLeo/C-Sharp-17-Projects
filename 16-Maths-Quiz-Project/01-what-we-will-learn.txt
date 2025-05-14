@@ -1,0 +1,7 @@
+You will learn how to:
+
+- Generate random numbers
+- Trigger events
+- Write conditional statements
+- Perform basic arithmetic operations
+- Write code for event handler methods
