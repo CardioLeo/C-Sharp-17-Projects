@@ -157,7 +157,7 @@
             // 
             // minusLabel
             // 
-            this.minusLabel.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.minusLabel.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.minusLabel.ForeColor = System.Drawing.Color.Bisque;
             this.minusLabel.Location = new System.Drawing.Point(108, 129);
             this.minusLabel.Name = "minusLabel";
@@ -211,7 +211,7 @@
             // 
             // timesLabel
             // 
-            this.timesLabel.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.timesLabel.Font = new System.Drawing.Font("Bahnschrift", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.timesLabel.ForeColor = System.Drawing.Color.Bisque;
             this.timesLabel.Location = new System.Drawing.Point(108, 179);
             this.timesLabel.Name = "timesLabel";
@@ -265,7 +265,7 @@
             // 
             // divisionLabel
             // 
-            this.divisionLabel.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.divisionLabel.Font = new System.Drawing.Font("Bahnschrift", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.divisionLabel.ForeColor = System.Drawing.Color.Bisque;
             this.divisionLabel.Location = new System.Drawing.Point(108, 229);
             this.divisionLabel.Name = "divisionLabel";
