@@ -92,7 +92,9 @@
             // 
             // sumSelector
             // 
+            this.sumSelector.BackColor = System.Drawing.Color.Bisque;
             this.sumSelector.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sumSelector.ForeColor = System.Drawing.Color.Salmon;
             this.sumSelector.Location = new System.Drawing.Point(318, 93);
             this.sumSelector.Name = "sumSelector";
             this.sumSelector.Size = new System.Drawing.Size(92, 30);
@@ -166,7 +168,9 @@
             // 
             // differenceSelector
             // 
+            this.differenceSelector.BackColor = System.Drawing.Color.Bisque;
             this.differenceSelector.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.differenceSelector.ForeColor = System.Drawing.Color.Salmon;
             this.differenceSelector.Location = new System.Drawing.Point(318, 143);
             this.differenceSelector.Name = "differenceSelector";
             this.differenceSelector.Size = new System.Drawing.Size(92, 30);
@@ -218,7 +222,9 @@
             // 
             // productSelector
             // 
+            this.productSelector.BackColor = System.Drawing.Color.Bisque;
             this.productSelector.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.productSelector.ForeColor = System.Drawing.Color.Salmon;
             this.productSelector.Location = new System.Drawing.Point(318, 193);
             this.productSelector.Name = "productSelector";
             this.productSelector.Size = new System.Drawing.Size(92, 30);
@@ -270,7 +276,9 @@
             // 
             // quotientSelector
             // 
+            this.quotientSelector.BackColor = System.Drawing.Color.Bisque;
             this.quotientSelector.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.quotientSelector.ForeColor = System.Drawing.Color.Salmon;
             this.quotientSelector.Location = new System.Drawing.Point(318, 243);
             this.quotientSelector.Name = "quotientSelector";
             this.quotientSelector.Size = new System.Drawing.Size(92, 30);
