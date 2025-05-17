@@ -40,20 +40,20 @@
             this.minusLabel = new System.Windows.Forms.Label();
             this.differenceSelector = new System.Windows.Forms.NumericUpDown();
             this.minusLeftLabel = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.numericUpDown4 = new System.Windows.Forms.NumericUpDown();
-            this.label12 = new System.Windows.Forms.Label();
+            this.timesEqualsLabel = new System.Windows.Forms.Label();
+            this.timesRightLabel = new System.Windows.Forms.Label();
+            this.timesLabel = new System.Windows.Forms.Label();
+            this.timesSelector = new System.Windows.Forms.NumericUpDown();
+            this.timesLeftLabel = new System.Windows.Forms.Label();
+            this.divisionEqualsSign = new System.Windows.Forms.Label();
+            this.divisionRightLabel = new System.Windows.Forms.Label();
+            this.divisionLabel = new System.Windows.Forms.Label();
+            this.divisionSelector = new System.Windows.Forms.NumericUpDown();
+            this.divisionLeftLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.sumSelector)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.differenceSelector)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.timesSelector)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.divisionSelector)).BeginInit();
             this.SuspendLayout();
             // 
             // timeLabel
@@ -182,109 +182,109 @@
             this.minusLeftLabel.Text = "?";
             this.minusLeftLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label5
+            // timesEqualsLabel
             // 
-            this.label5.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Bisque;
-            this.label5.Location = new System.Drawing.Point(255, 202);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(60, 50);
-            this.label5.TabIndex = 19;
-            this.label5.Text = "=";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.timesEqualsLabel.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.timesEqualsLabel.ForeColor = System.Drawing.Color.Bisque;
+            this.timesEqualsLabel.Location = new System.Drawing.Point(255, 202);
+            this.timesEqualsLabel.Name = "timesEqualsLabel";
+            this.timesEqualsLabel.Size = new System.Drawing.Size(60, 50);
+            this.timesEqualsLabel.TabIndex = 19;
+            this.timesEqualsLabel.Text = "=";
+            this.timesEqualsLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label6
+            // timesRightLabel
             // 
-            this.label6.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.Bisque;
-            this.label6.Location = new System.Drawing.Point(192, 202);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(60, 50);
-            this.label6.TabIndex = 18;
-            this.label6.Text = "?";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.timesRightLabel.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.timesRightLabel.ForeColor = System.Drawing.Color.Bisque;
+            this.timesRightLabel.Location = new System.Drawing.Point(192, 202);
+            this.timesRightLabel.Name = "timesRightLabel";
+            this.timesRightLabel.Size = new System.Drawing.Size(60, 50);
+            this.timesRightLabel.TabIndex = 18;
+            this.timesRightLabel.Text = "?";
+            this.timesRightLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label7
+            // timesLabel
             // 
-            this.label7.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.Bisque;
-            this.label7.Location = new System.Drawing.Point(126, 202);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(60, 50);
-            this.label7.TabIndex = 17;
-            this.label7.Text = "*";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.timesLabel.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.timesLabel.ForeColor = System.Drawing.Color.Bisque;
+            this.timesLabel.Location = new System.Drawing.Point(126, 202);
+            this.timesLabel.Name = "timesLabel";
+            this.timesLabel.Size = new System.Drawing.Size(60, 50);
+            this.timesLabel.TabIndex = 17;
+            this.timesLabel.Text = "x";
+            this.timesLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // numericUpDown3
+            // timesSelector
             // 
-            this.numericUpDown3.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown3.Location = new System.Drawing.Point(336, 216);
-            this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(92, 30);
-            this.numericUpDown3.TabIndex = 16;
+            this.timesSelector.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.timesSelector.Location = new System.Drawing.Point(336, 216);
+            this.timesSelector.Name = "timesSelector";
+            this.timesSelector.Size = new System.Drawing.Size(92, 30);
+            this.timesSelector.TabIndex = 16;
             // 
-            // label8
+            // timesLeftLabel
             // 
-            this.label8.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.Bisque;
-            this.label8.Location = new System.Drawing.Point(60, 202);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(60, 50);
-            this.label8.TabIndex = 15;
-            this.label8.Text = "?";
-            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.timesLeftLabel.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.timesLeftLabel.ForeColor = System.Drawing.Color.Bisque;
+            this.timesLeftLabel.Location = new System.Drawing.Point(60, 202);
+            this.timesLeftLabel.Name = "timesLeftLabel";
+            this.timesLeftLabel.Size = new System.Drawing.Size(60, 50);
+            this.timesLeftLabel.TabIndex = 15;
+            this.timesLeftLabel.Text = "?";
+            this.timesLeftLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label9
+            // divisionEqualsSign
             // 
-            this.label9.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.Bisque;
-            this.label9.Location = new System.Drawing.Point(255, 252);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(60, 50);
-            this.label9.TabIndex = 24;
-            this.label9.Text = "=";
-            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.divisionEqualsSign.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.divisionEqualsSign.ForeColor = System.Drawing.Color.Bisque;
+            this.divisionEqualsSign.Location = new System.Drawing.Point(255, 252);
+            this.divisionEqualsSign.Name = "divisionEqualsSign";
+            this.divisionEqualsSign.Size = new System.Drawing.Size(60, 50);
+            this.divisionEqualsSign.TabIndex = 24;
+            this.divisionEqualsSign.Text = "=";
+            this.divisionEqualsSign.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label10
+            // divisionRightLabel
             // 
-            this.label10.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.Bisque;
-            this.label10.Location = new System.Drawing.Point(192, 252);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(60, 50);
-            this.label10.TabIndex = 23;
-            this.label10.Text = "?";
-            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.divisionRightLabel.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.divisionRightLabel.ForeColor = System.Drawing.Color.Bisque;
+            this.divisionRightLabel.Location = new System.Drawing.Point(192, 252);
+            this.divisionRightLabel.Name = "divisionRightLabel";
+            this.divisionRightLabel.Size = new System.Drawing.Size(60, 50);
+            this.divisionRightLabel.TabIndex = 23;
+            this.divisionRightLabel.Text = "?";
+            this.divisionRightLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label11
+            // divisionLabel
             // 
-            this.label11.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.Bisque;
-            this.label11.Location = new System.Drawing.Point(126, 252);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(60, 50);
-            this.label11.TabIndex = 22;
-            this.label11.Text = "/";
-            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.divisionLabel.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.divisionLabel.ForeColor = System.Drawing.Color.Bisque;
+            this.divisionLabel.Location = new System.Drawing.Point(126, 252);
+            this.divisionLabel.Name = "divisionLabel";
+            this.divisionLabel.Size = new System.Drawing.Size(60, 50);
+            this.divisionLabel.TabIndex = 22;
+            this.divisionLabel.Text = "/";
+            this.divisionLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // numericUpDown4
+            // divisionSelector
             // 
-            this.numericUpDown4.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown4.Location = new System.Drawing.Point(336, 266);
-            this.numericUpDown4.Name = "numericUpDown4";
-            this.numericUpDown4.Size = new System.Drawing.Size(92, 30);
-            this.numericUpDown4.TabIndex = 21;
+            this.divisionSelector.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.divisionSelector.Location = new System.Drawing.Point(336, 266);
+            this.divisionSelector.Name = "divisionSelector";
+            this.divisionSelector.Size = new System.Drawing.Size(92, 30);
+            this.divisionSelector.TabIndex = 21;
             // 
-            // label12
+            // divisionLeftLabel
             // 
-            this.label12.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.Bisque;
-            this.label12.Location = new System.Drawing.Point(60, 252);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(60, 50);
-            this.label12.TabIndex = 20;
-            this.label12.Text = "?";
-            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.divisionLeftLabel.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.divisionLeftLabel.ForeColor = System.Drawing.Color.Bisque;
+            this.divisionLeftLabel.Location = new System.Drawing.Point(60, 252);
+            this.divisionLeftLabel.Name = "divisionLeftLabel";
+            this.divisionLeftLabel.Size = new System.Drawing.Size(60, 50);
+            this.divisionLeftLabel.TabIndex = 20;
+            this.divisionLeftLabel.Text = "?";
+            this.divisionLeftLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 
@@ -292,16 +292,16 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Salmon;
             this.ClientSize = new System.Drawing.Size(484, 361);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.numericUpDown4);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.numericUpDown3);
-            this.Controls.Add(this.label8);
+            this.Controls.Add(this.divisionEqualsSign);
+            this.Controls.Add(this.divisionRightLabel);
+            this.Controls.Add(this.divisionLabel);
+            this.Controls.Add(this.divisionSelector);
+            this.Controls.Add(this.divisionLeftLabel);
+            this.Controls.Add(this.timesEqualsLabel);
+            this.Controls.Add(this.timesRightLabel);
+            this.Controls.Add(this.timesLabel);
+            this.Controls.Add(this.timesSelector);
+            this.Controls.Add(this.timesLeftLabel);
             this.Controls.Add(this.minusEqualsSign);
             this.Controls.Add(this.minusRightLabel);
             this.Controls.Add(this.minusLabel);
@@ -320,8 +320,8 @@
             this.Text = "Sharp Maths Quiz";
             ((System.ComponentModel.ISupportInitialize)(this.sumSelector)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.differenceSelector)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.timesSelector)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.divisionSelector)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -341,16 +341,16 @@
         private System.Windows.Forms.Label minusLabel;
         private System.Windows.Forms.NumericUpDown differenceSelector;
         private System.Windows.Forms.Label minusLeftLabel;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.NumericUpDown numericUpDown3;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.NumericUpDown numericUpDown4;
-        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label timesEqualsLabel;
+        private System.Windows.Forms.Label timesRightLabel;
+        private System.Windows.Forms.Label timesLabel;
+        private System.Windows.Forms.NumericUpDown timesSelector;
+        private System.Windows.Forms.Label timesLeftLabel;
+        private System.Windows.Forms.Label divisionEqualsSign;
+        private System.Windows.Forms.Label divisionRightLabel;
+        private System.Windows.Forms.Label divisionLabel;
+        private System.Windows.Forms.NumericUpDown divisionSelector;
+        private System.Windows.Forms.Label divisionLeftLabel;
     }
 }
 
