@@ -98,7 +98,7 @@
             this.sumSelector.Location = new System.Drawing.Point(318, 93);
             this.sumSelector.Name = "sumSelector";
             this.sumSelector.Size = new System.Drawing.Size(92, 30);
-            this.sumSelector.TabIndex = 6;
+            this.sumSelector.TabIndex = 2;
             // 
             // plusSignLabel
             // 
@@ -174,7 +174,7 @@
             this.differenceSelector.Location = new System.Drawing.Point(318, 143);
             this.differenceSelector.Name = "differenceSelector";
             this.differenceSelector.Size = new System.Drawing.Size(92, 30);
-            this.differenceSelector.TabIndex = 11;
+            this.differenceSelector.TabIndex = 3;
             // 
             // minusLeftLabel
             // 
@@ -228,7 +228,7 @@
             this.productSelector.Location = new System.Drawing.Point(318, 193);
             this.productSelector.Name = "productSelector";
             this.productSelector.Size = new System.Drawing.Size(92, 30);
-            this.productSelector.TabIndex = 16;
+            this.productSelector.TabIndex = 4;
             // 
             // timesLeftLabel
             // 
@@ -282,7 +282,7 @@
             this.quotientSelector.Location = new System.Drawing.Point(318, 243);
             this.quotientSelector.Name = "quotientSelector";
             this.quotientSelector.Size = new System.Drawing.Size(92, 30);
-            this.quotientSelector.TabIndex = 21;
+            this.quotientSelector.TabIndex = 5;
             // 
             // divisionLeftLabel
             // 
@@ -303,7 +303,7 @@
             this.startButton.Location = new System.Drawing.Point(113, 294);
             this.startButton.Name = "startButton";
             this.startButton.Size = new System.Drawing.Size(121, 44);
-            this.startButton.TabIndex = 25;
+            this.startButton.TabIndex = 1;
             this.startButton.Text = "Start Quiz";
             this.startButton.UseVisualStyleBackColor = false;
             // 
