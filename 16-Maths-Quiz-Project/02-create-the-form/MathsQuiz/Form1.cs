@@ -70,6 +70,7 @@ namespace MathsQuiz
             subtractionGenerator();
             multiplicationGenerator();
             divisionGenerator();
+            timer1.Start();
         }
         public Form1()
         {
@@ -99,9 +100,10 @@ namespace MathsQuiz
                 timeLabel.Text = "Time's up!";
                 MessageBox.Show("You didn't finish in time.", "Sorry...");
                 sumSelector.Value = addNum1 + addNum2;
-                // differenceSelector.Value = minusNum1 - minusNum2;
-                // productSelector.Value = timesNum1 * timesNum2;
-                // quotientSelector.Value = divisionNum1 / divisionNum2;
+                differenceSelector.Value = subNum1 - subNum2;
+                productSelector.Value = multNum1 * multNum2;
+                quotientSelector.Value = divNum1 / divNum2;
+
                 startButton.Enabled = true;
             }
         }

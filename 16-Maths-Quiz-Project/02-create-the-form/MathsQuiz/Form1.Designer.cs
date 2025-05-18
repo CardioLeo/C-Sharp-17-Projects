@@ -68,7 +68,6 @@
             this.timeLabel.Name = "timeLabel";
             this.timeLabel.Size = new System.Drawing.Size(200, 39);
             this.timeLabel.TabIndex = 0;
-            this.timeLabel.Text = "timer";
             // 
             // timeLeftTextBox
             // 
