@@ -29,7 +29,7 @@ namespace MathsQuiz
         bool divCorrect;
 
         bool answersWereSuccessful;
-        
+                
         int clock = 30;
 
         // he has all of this in one function
@@ -150,6 +150,11 @@ namespace MathsQuiz
             clock = 30;
         }
 
+        private void checkAnswersButtonReset()
+        {
+            checkAnswersButton.Enabled = false;
+        }
+
         public void startQuiz()
         {
             additionGenerator();
@@ -168,18 +173,21 @@ namespace MathsQuiz
                 MessageBox.Show("Good Job! You figured out all the answers!", "Congratulations!");
                 clockReset();
                 startButton.Enabled = true;
+                checkAnswersButtonReset();
             }
         }
         
         public Form1()
         {
             InitializeComponent();
+            checkAnswersButton.Enabled = false;
         }
 
         private void startButton_Click(object sender, EventArgs e)
         {
             startQuiz();
             startButton.Enabled = false;
+            checkAnswersButton.Enabled = true;
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -209,6 +217,7 @@ namespace MathsQuiz
 
                 startButton.Enabled = true;
                 clockReset();
+                checkAnswersButtonReset();
             }
         }
 
