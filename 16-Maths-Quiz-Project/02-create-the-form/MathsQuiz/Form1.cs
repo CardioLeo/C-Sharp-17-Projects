@@ -46,7 +46,7 @@ namespace MathsQuiz
         public void subtractionGenerator()
         {
             subNum1 = randomizer.Next(51);
-            subNum2 = randomizer.Next(26);
+            subNum2 = randomizer.Next(subNum1);
             minusLeftLabel.Text = subNum1.ToString();
             minusRightLabel.Text = subNum2.ToString();
 
@@ -64,7 +64,7 @@ namespace MathsQuiz
         public void divisionGenerator()
         {
             divNum1 = randomizer.Next(51);
-            divNum2 = randomizer.Next(13);
+            divNum2 = randomizer.Next(divNum1);
             divisionLeftLabel.Text = divNum1.ToString();
             divisionRightLabel.Text = divNum2.ToString();
 
