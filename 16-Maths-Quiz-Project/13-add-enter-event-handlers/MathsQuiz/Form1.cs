@@ -64,13 +64,15 @@ namespace MathsQuiz
         }
         public void divisionGenerator()
         {
-            divNum1 = randomizer.Next(51);
-            divNum2 = randomizer.Next(divNum1);
+            // divNum1 = randomizer.Next(1, 12);
+            divNum2 = randomizer.Next(2, 22);
+            int temporaryQuotient = randomizer.Next(1, 6);
+            divNum1 = divNum2 * temporaryQuotient;
             if (divNum1 == 0)
             {
                 divNum1++;
             }
-            divNum2 = randomizer.Next(divNum1);
+            // divNum2 = randomizer.Next(divNum1);
             if (divNum2 == 0)
             {
                 divNum2++;
