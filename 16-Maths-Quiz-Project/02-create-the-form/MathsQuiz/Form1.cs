@@ -21,7 +21,14 @@ namespace MathsQuiz
         int multNum2;
         int divNum1;
         int divNum2;
-        
+
+        bool addCorrect;
+        bool subCorrect;
+        bool multCorrect;
+        bool divCorrect;
+
+        bool answersWereSuccessful;
+
         int clock = 30;
 
         // he has all of this in one function
@@ -64,6 +71,70 @@ namespace MathsQuiz
             quotientSelector.Value = 0;
         }
 
+        private void checkAddAnswer()
+        {
+            if (addNum1 + addNum2 == sumSelector.Value)
+            {
+                addCorrect = true;
+            }
+            else
+            {
+                addCorrect = false;
+            }
+        }
+
+        private void checkSubAnswer()
+        {
+            if (subNum1 - subNum2 == differenceSelector.Value)
+            {
+                subCorrect = true;
+            }
+            else
+            {
+                subCorrect = false;
+            }
+        }
+
+        private void checkMultAnswer()
+        {
+            if (multNum1 * multNum2 == productSelector.Value)
+            {
+                multCorrect = true;
+            }
+            else
+            {
+                multCorrect = false;
+            }
+        }
+
+        private void checkDivAnswer()
+        {
+            if (divNum1 / divNum2 == quotientSelector.Value)
+            {
+                divCorrect = true;
+            }
+            else
+            {
+                divCorrect = false;
+            }
+        }
+
+        private bool checkAnswers()
+        {
+            checkAddAnswer();
+            checkSubAnswer();
+            checkMultAnswer();
+            checkDivAnswer();
+            if (addCorrect && subCorrect && multCorrect && divCorrect)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
         public void startQuiz()
         {
             additionGenerator();
@@ -98,7 +169,15 @@ namespace MathsQuiz
                 // show a MessageBox, and fill in the answers
                 timer1.Stop();
                 timeLabel.Text = "Time's up!";
-                MessageBox.Show("You didn't finish in time.", "Sorry...");
+                answersWereSuccessful = checkAnswers();
+                if (answersWereSuccessful)
+                {
+                    MessageBox.Show("Good Job! You figured out all the answers!", "Congratulations!");
+                }
+                else
+                {
+                    MessageBox.Show("You didn't finish in time.", "Sorry...");
+                }
                 sumSelector.Value = addNum1 + addNum2;
                 differenceSelector.Value = subNum1 - subNum2;
                 productSelector.Value = multNum1 * multNum2;
