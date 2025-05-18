@@ -39,7 +39,7 @@ namespace MathsQuiz
         public void subtractionGenerator()
         {
             subNum1 = randomizer.Next(51);
-            subNum2 = randomizer.Next(51);
+            subNum2 = randomizer.Next(26);
             minusLeftLabel.Text = subNum1.ToString();
             minusRightLabel.Text = subNum2.ToString();
 
@@ -47,8 +47,8 @@ namespace MathsQuiz
         }
         public void multiplicationGenerator()
         {
-            multNum1 = randomizer.Next(51);
-            multNum2 = randomizer.Next(51);
+            multNum1 = randomizer.Next(13);
+            multNum2 = randomizer.Next(13);
             timesLeftLabel .Text = multNum1.ToString();
             timesRightLabel.Text = multNum2.ToString();
 
@@ -57,7 +57,7 @@ namespace MathsQuiz
         public void divisionGenerator()
         {
             divNum1 = randomizer.Next(51);
-            divNum2 = randomizer.Next(51);
+            divNum2 = randomizer.Next(13);
             divisionLeftLabel.Text = divNum1.ToString();
             divisionRightLabel.Text = divNum2.ToString();
 
@@ -105,6 +105,7 @@ namespace MathsQuiz
                 quotientSelector.Value = divNum1 / divNum2;
 
                 startButton.Enabled = true;
+                clock = 30;
             }
         }
     }
