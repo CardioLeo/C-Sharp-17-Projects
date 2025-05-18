@@ -101,6 +101,7 @@
             this.sumSelector.Name = "sumSelector";
             this.sumSelector.Size = new System.Drawing.Size(92, 30);
             this.sumSelector.TabIndex = 2;
+            this.sumSelector.Enter += new System.EventHandler(this.answerEnter);
             // 
             // plusSignLabel
             // 

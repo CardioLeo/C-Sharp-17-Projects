@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.Remoting.Channels;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -208,6 +209,17 @@ namespace MathsQuiz
             if (!answersWereSuccessful)
             {
                 MessageBox.Show("Not this time! Keep trying!", "Not yet!");
+            }
+        }
+
+        private void answerEnter(object sender, EventArgs e)
+        {
+            NumericUpDown answerBox = sender as NumericUpDown;
+            // his says answer_Enter **shrug**
+            if (answerBox != null)
+            {
+                int lengthOfAnswer = answerBox.Value.ToString().Length;
+                answerBox.Select(0, lengthOfAnswer);
             }
         }
     }
