@@ -46,8 +46,8 @@ namespace MathsQuiz
         }
         public void subtractionGenerator()
         {
-            subNum1 = randomizer.Next(51);
-            subNum2 = randomizer.Next(subNum1);
+            subNum1 = randomizer.Next(1, 101);
+            subNum2 = randomizer.Next(1, subNum1);
             minusLeftLabel.Text = subNum1.ToString();
             minusRightLabel.Text = subNum2.ToString();
 
