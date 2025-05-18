@@ -69,17 +69,18 @@
             this.timeLabel.Name = "timeLabel";
             this.timeLabel.Size = new System.Drawing.Size(200, 39);
             this.timeLabel.TabIndex = 0;
+            this.timeLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // timeLeftTextBox
             // 
             this.timeLeftTextBox.AutoSize = true;
             this.timeLeftTextBox.Font = new System.Drawing.Font("Bahnschrift", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.timeLeftTextBox.ForeColor = System.Drawing.Color.Bisque;
-            this.timeLeftTextBox.Location = new System.Drawing.Point(161, 9);
+            this.timeLeftTextBox.Location = new System.Drawing.Point(159, 15);
             this.timeLeftTextBox.Name = "timeLeftTextBox";
-            this.timeLeftTextBox.Size = new System.Drawing.Size(105, 27);
+            this.timeLeftTextBox.Size = new System.Drawing.Size(110, 27);
             this.timeLeftTextBox.TabIndex = 1;
-            this.timeLeftTextBox.Text = "Time Left";
+            this.timeLeftTextBox.Text = "Time Left:";
             // 
             // plusLeftLabel
             // 
@@ -97,7 +98,7 @@
             this.sumSelector.BackColor = System.Drawing.Color.Bisque;
             this.sumSelector.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sumSelector.ForeColor = System.Drawing.Color.Salmon;
-            this.sumSelector.Location = new System.Drawing.Point(318, 93);
+            this.sumSelector.Location = new System.Drawing.Point(329, 93);
             this.sumSelector.Name = "sumSelector";
             this.sumSelector.Size = new System.Drawing.Size(92, 30);
             this.sumSelector.TabIndex = 2;
@@ -107,7 +108,7 @@
             // 
             this.plusSignLabel.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.plusSignLabel.ForeColor = System.Drawing.Color.Bisque;
-            this.plusSignLabel.Location = new System.Drawing.Point(108, 79);
+            this.plusSignLabel.Location = new System.Drawing.Point(109, 79);
             this.plusSignLabel.Name = "plusSignLabel";
             this.plusSignLabel.Size = new System.Drawing.Size(60, 50);
             this.plusSignLabel.TabIndex = 7;
@@ -118,7 +119,7 @@
             // 
             this.plusRightLabel.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.plusRightLabel.ForeColor = System.Drawing.Color.Bisque;
-            this.plusRightLabel.Location = new System.Drawing.Point(174, 79);
+            this.plusRightLabel.Location = new System.Drawing.Point(178, 79);
             this.plusRightLabel.Name = "plusRightLabel";
             this.plusRightLabel.Size = new System.Drawing.Size(60, 50);
             this.plusRightLabel.TabIndex = 8;
@@ -129,7 +130,7 @@
             // 
             this.plusEqualsLabel.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.plusEqualsLabel.ForeColor = System.Drawing.Color.Bisque;
-            this.plusEqualsLabel.Location = new System.Drawing.Point(237, 79);
+            this.plusEqualsLabel.Location = new System.Drawing.Point(244, 79);
             this.plusEqualsLabel.Name = "plusEqualsLabel";
             this.plusEqualsLabel.Size = new System.Drawing.Size(60, 50);
             this.plusEqualsLabel.TabIndex = 9;
@@ -140,7 +141,7 @@
             // 
             this.minusEqualsSign.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.minusEqualsSign.ForeColor = System.Drawing.Color.Bisque;
-            this.minusEqualsSign.Location = new System.Drawing.Point(237, 129);
+            this.minusEqualsSign.Location = new System.Drawing.Point(244, 129);
             this.minusEqualsSign.Name = "minusEqualsSign";
             this.minusEqualsSign.Size = new System.Drawing.Size(60, 50);
             this.minusEqualsSign.TabIndex = 14;
@@ -151,7 +152,7 @@
             // 
             this.minusRightLabel.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.minusRightLabel.ForeColor = System.Drawing.Color.Bisque;
-            this.minusRightLabel.Location = new System.Drawing.Point(174, 129);
+            this.minusRightLabel.Location = new System.Drawing.Point(178, 129);
             this.minusRightLabel.Name = "minusRightLabel";
             this.minusRightLabel.Size = new System.Drawing.Size(60, 50);
             this.minusRightLabel.TabIndex = 13;
@@ -162,7 +163,7 @@
             // 
             this.minusLabel.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.minusLabel.ForeColor = System.Drawing.Color.Bisque;
-            this.minusLabel.Location = new System.Drawing.Point(108, 129);
+            this.minusLabel.Location = new System.Drawing.Point(109, 129);
             this.minusLabel.Name = "minusLabel";
             this.minusLabel.Size = new System.Drawing.Size(60, 50);
             this.minusLabel.TabIndex = 12;
@@ -174,7 +175,7 @@
             this.differenceSelector.BackColor = System.Drawing.Color.Bisque;
             this.differenceSelector.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.differenceSelector.ForeColor = System.Drawing.Color.Salmon;
-            this.differenceSelector.Location = new System.Drawing.Point(318, 143);
+            this.differenceSelector.Location = new System.Drawing.Point(329, 143);
             this.differenceSelector.Name = "differenceSelector";
             this.differenceSelector.Size = new System.Drawing.Size(92, 30);
             this.differenceSelector.TabIndex = 3;
@@ -194,7 +195,7 @@
             // 
             this.timesEqualsLabel.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.timesEqualsLabel.ForeColor = System.Drawing.Color.Bisque;
-            this.timesEqualsLabel.Location = new System.Drawing.Point(237, 179);
+            this.timesEqualsLabel.Location = new System.Drawing.Point(244, 179);
             this.timesEqualsLabel.Name = "timesEqualsLabel";
             this.timesEqualsLabel.Size = new System.Drawing.Size(60, 50);
             this.timesEqualsLabel.TabIndex = 19;
@@ -205,7 +206,7 @@
             // 
             this.timesRightLabel.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.timesRightLabel.ForeColor = System.Drawing.Color.Bisque;
-            this.timesRightLabel.Location = new System.Drawing.Point(174, 179);
+            this.timesRightLabel.Location = new System.Drawing.Point(178, 179);
             this.timesRightLabel.Name = "timesRightLabel";
             this.timesRightLabel.Size = new System.Drawing.Size(60, 50);
             this.timesRightLabel.TabIndex = 18;
@@ -216,7 +217,7 @@
             // 
             this.timesLabel.Font = new System.Drawing.Font("Bahnschrift", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.timesLabel.ForeColor = System.Drawing.Color.Bisque;
-            this.timesLabel.Location = new System.Drawing.Point(108, 179);
+            this.timesLabel.Location = new System.Drawing.Point(109, 179);
             this.timesLabel.Name = "timesLabel";
             this.timesLabel.Size = new System.Drawing.Size(60, 50);
             this.timesLabel.TabIndex = 17;
@@ -228,7 +229,7 @@
             this.productSelector.BackColor = System.Drawing.Color.Bisque;
             this.productSelector.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.productSelector.ForeColor = System.Drawing.Color.Salmon;
-            this.productSelector.Location = new System.Drawing.Point(318, 193);
+            this.productSelector.Location = new System.Drawing.Point(329, 193);
             this.productSelector.Name = "productSelector";
             this.productSelector.Size = new System.Drawing.Size(92, 30);
             this.productSelector.TabIndex = 4;
@@ -248,7 +249,7 @@
             // 
             this.divisionEqualsSign.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.divisionEqualsSign.ForeColor = System.Drawing.Color.Bisque;
-            this.divisionEqualsSign.Location = new System.Drawing.Point(237, 229);
+            this.divisionEqualsSign.Location = new System.Drawing.Point(244, 229);
             this.divisionEqualsSign.Name = "divisionEqualsSign";
             this.divisionEqualsSign.Size = new System.Drawing.Size(60, 50);
             this.divisionEqualsSign.TabIndex = 24;
@@ -259,7 +260,7 @@
             // 
             this.divisionRightLabel.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.divisionRightLabel.ForeColor = System.Drawing.Color.Bisque;
-            this.divisionRightLabel.Location = new System.Drawing.Point(174, 229);
+            this.divisionRightLabel.Location = new System.Drawing.Point(178, 229);
             this.divisionRightLabel.Name = "divisionRightLabel";
             this.divisionRightLabel.Size = new System.Drawing.Size(60, 50);
             this.divisionRightLabel.TabIndex = 23;
@@ -270,7 +271,7 @@
             // 
             this.divisionLabel.Font = new System.Drawing.Font("Bahnschrift", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.divisionLabel.ForeColor = System.Drawing.Color.Bisque;
-            this.divisionLabel.Location = new System.Drawing.Point(108, 229);
+            this.divisionLabel.Location = new System.Drawing.Point(109, 229);
             this.divisionLabel.Name = "divisionLabel";
             this.divisionLabel.Size = new System.Drawing.Size(60, 50);
             this.divisionLabel.TabIndex = 22;
@@ -282,7 +283,7 @@
             this.quotientSelector.BackColor = System.Drawing.Color.Bisque;
             this.quotientSelector.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.quotientSelector.ForeColor = System.Drawing.Color.Salmon;
-            this.quotientSelector.Location = new System.Drawing.Point(318, 243);
+            this.quotientSelector.Location = new System.Drawing.Point(329, 243);
             this.quotientSelector.Name = "quotientSelector";
             this.quotientSelector.Size = new System.Drawing.Size(92, 30);
             this.quotientSelector.TabIndex = 5;
@@ -303,7 +304,7 @@
             this.startButton.BackColor = System.Drawing.Color.Bisque;
             this.startButton.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.startButton.ForeColor = System.Drawing.Color.Salmon;
-            this.startButton.Location = new System.Drawing.Point(75, 294);
+            this.startButton.Location = new System.Drawing.Point(71, 294);
             this.startButton.Name = "startButton";
             this.startButton.Size = new System.Drawing.Size(121, 44);
             this.startButton.TabIndex = 1;
@@ -321,7 +322,7 @@
             this.checkAnswersButton.BackColor = System.Drawing.Color.Bisque;
             this.checkAnswersButton.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkAnswersButton.ForeColor = System.Drawing.Color.Salmon;
-            this.checkAnswersButton.Location = new System.Drawing.Point(238, 294);
+            this.checkAnswersButton.Location = new System.Drawing.Point(225, 294);
             this.checkAnswersButton.Name = "checkAnswersButton";
             this.checkAnswersButton.Size = new System.Drawing.Size(185, 44);
             this.checkAnswersButton.TabIndex = 25;
