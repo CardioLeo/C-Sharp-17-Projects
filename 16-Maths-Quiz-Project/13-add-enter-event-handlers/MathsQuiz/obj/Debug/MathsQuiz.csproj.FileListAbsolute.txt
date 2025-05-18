@@ -1,0 +1,10 @@
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\16-Maths-Quiz-Project\02-create-the-form\MathsQuiz\bin\Debug\MathsQuiz.exe.config
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\16-Maths-Quiz-Project\02-create-the-form\MathsQuiz\bin\Debug\MathsQuiz.exe
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\16-Maths-Quiz-Project\02-create-the-form\MathsQuiz\bin\Debug\MathsQuiz.pdb
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\16-Maths-Quiz-Project\02-create-the-form\MathsQuiz\obj\Debug\MathsQuiz.csproj.AssemblyReference.cache
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\16-Maths-Quiz-Project\02-create-the-form\MathsQuiz\obj\Debug\MathsQuiz.Form1.resources
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\16-Maths-Quiz-Project\02-create-the-form\MathsQuiz\obj\Debug\MathsQuiz.Properties.Resources.resources
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\16-Maths-Quiz-Project\02-create-the-form\MathsQuiz\obj\Debug\MathsQuiz.csproj.GenerateResource.cache
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\16-Maths-Quiz-Project\02-create-the-form\MathsQuiz\obj\Debug\MathsQuiz.csproj.CoreCompileInputs.cache
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\16-Maths-Quiz-Project\02-create-the-form\MathsQuiz\obj\Debug\MathsQuiz.exe
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\16-Maths-Quiz-Project\02-create-the-form\MathsQuiz\obj\Debug\MathsQuiz.pdb
