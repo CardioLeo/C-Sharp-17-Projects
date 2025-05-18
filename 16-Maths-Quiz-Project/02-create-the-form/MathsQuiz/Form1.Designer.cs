@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.timeLabel = new System.Windows.Forms.Label();
             this.timeLeftTextBox = new System.Windows.Forms.Label();
             this.plusLeftLabel = new System.Windows.Forms.Label();
@@ -51,6 +52,7 @@
             this.quotientSelector = new System.Windows.Forms.NumericUpDown();
             this.divisionLeftLabel = new System.Windows.Forms.Label();
             this.startButton = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.sumSelector)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.differenceSelector)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.productSelector)).BeginInit();
@@ -306,6 +308,12 @@
             this.startButton.TabIndex = 1;
             this.startButton.Text = "Start Quiz";
             this.startButton.UseVisualStyleBackColor = false;
+            this.startButton.Click += new System.EventHandler(this.startButton_Click);
+            // 
+            // timer1
+            // 
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Form1
             // 
@@ -374,6 +382,7 @@
         private System.Windows.Forms.NumericUpDown quotientSelector;
         private System.Windows.Forms.Label divisionLeftLabel;
         private System.Windows.Forms.Button startButton;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 
