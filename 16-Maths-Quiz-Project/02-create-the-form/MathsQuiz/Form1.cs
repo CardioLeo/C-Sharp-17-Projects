@@ -15,8 +15,19 @@ namespace MathsQuiz
         Random randomizer = new Random();
         int addNum1;
         int addNum2;
+        int subNum1;
+        int subNum2;
+        int multNum1;
+        int multNum2;
+        int divNum1;
+        int divNum2;
+        
+        int clock = 30;
 
-        public void startQuiz()
+        // he has all of this in one function
+        // I'm going to separate it out...
+
+        public void additionGenerator()
         {
             addNum1 = randomizer.Next(51);
             addNum2 = randomizer.Next(51);
@@ -24,7 +35,41 @@ namespace MathsQuiz
             plusRightLabel.Text = addNum2.ToString();
 
             sumSelector.Value = 0;
+        }
+        public void subtractionGenerator()
+        {
+            subNum1 = randomizer.Next(51);
+            subNum2 = randomizer.Next(51);
+            minusLeftLabel.Text = subNum1.ToString();
+            minusRightLabel.Text = subNum2.ToString();
 
+            differenceSelector.Value = 0;
+        }
+        public void multiplicationGenerator()
+        {
+            multNum1 = randomizer.Next(51);
+            multNum2 = randomizer.Next(51);
+            timesLeftLabel .Text = multNum1.ToString();
+            timesRightLabel.Text = multNum2.ToString();
+
+            productSelector.Value = 0;
+        }
+        public void divisionGenerator()
+        {
+            divNum1 = randomizer.Next(51);
+            divNum2 = randomizer.Next(51);
+            divisionLeftLabel.Text = divNum1.ToString();
+            divisionRightLabel.Text = divNum2.ToString();
+
+            quotientSelector.Value = 0;
+        }
+
+        public void startQuiz()
+        {
+            additionGenerator();
+            subtractionGenerator();
+            multiplicationGenerator();
+            divisionGenerator();
         }
         public Form1()
         {
