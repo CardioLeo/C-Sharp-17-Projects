@@ -12,6 +12,9 @@ namespace MathsQuiz
 {
     public partial class Form1: Form
     {
+        Random randomizer = new Random();
+        int addNum1;
+        int addNum2;
         public Form1()
         {
             InitializeComponent();
