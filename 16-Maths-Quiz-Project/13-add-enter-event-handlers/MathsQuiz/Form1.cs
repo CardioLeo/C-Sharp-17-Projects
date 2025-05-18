@@ -55,8 +55,8 @@ namespace MathsQuiz
         }
         public void multiplicationGenerator()
         {
-            multNum1 = randomizer.Next(13);
-            multNum2 = randomizer.Next(13);
+            multNum1 = randomizer.Next(1, 13);
+            multNum2 = randomizer.Next(1, 13);
             timesLeftLabel .Text = multNum1.ToString();
             timesRightLabel.Text = multNum2.ToString();
 
@@ -226,7 +226,7 @@ namespace MathsQuiz
             announceSuccessfulAnswers();
             if (!answersWereSuccessful)
             {
-                MessageBox.Show("Not this time! Keep trying!", "Not yet!");
+                MessageBox.Show("Keep trying!", "Not yet!");
             }
         }
 
