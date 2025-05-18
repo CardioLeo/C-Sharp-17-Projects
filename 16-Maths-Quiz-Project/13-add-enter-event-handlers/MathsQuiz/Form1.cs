@@ -29,7 +29,7 @@ namespace MathsQuiz
         bool divCorrect;
 
         bool answersWereSuccessful;
-
+        
         int clock = 30;
 
         // he has all of this in one function
@@ -119,7 +119,7 @@ namespace MathsQuiz
 
         private void checkDivAnswer()
         {
-            if (divNum1 / divNum2 == quotientSelector.Value)
+            if (divNum2 != 0 && divNum1 / divNum2 == quotientSelector.Value)
             {
                 divCorrect = true;
             }
