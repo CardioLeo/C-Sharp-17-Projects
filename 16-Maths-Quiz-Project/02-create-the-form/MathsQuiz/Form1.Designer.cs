@@ -53,6 +53,7 @@
             this.divisionLeftLabel = new System.Windows.Forms.Label();
             this.startButton = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.checkAnswersButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.sumSelector)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.differenceSelector)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.productSelector)).BeginInit();
@@ -301,7 +302,7 @@
             this.startButton.BackColor = System.Drawing.Color.Bisque;
             this.startButton.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.startButton.ForeColor = System.Drawing.Color.Salmon;
-            this.startButton.Location = new System.Drawing.Point(113, 294);
+            this.startButton.Location = new System.Drawing.Point(75, 294);
             this.startButton.Name = "startButton";
             this.startButton.Size = new System.Drawing.Size(121, 44);
             this.startButton.TabIndex = 1;
@@ -314,12 +315,26 @@
             this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // checkAnswersButton
+            // 
+            this.checkAnswersButton.BackColor = System.Drawing.Color.Bisque;
+            this.checkAnswersButton.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkAnswersButton.ForeColor = System.Drawing.Color.Salmon;
+            this.checkAnswersButton.Location = new System.Drawing.Point(238, 294);
+            this.checkAnswersButton.Name = "checkAnswersButton";
+            this.checkAnswersButton.Size = new System.Drawing.Size(185, 44);
+            this.checkAnswersButton.TabIndex = 25;
+            this.checkAnswersButton.Text = "Check Answers";
+            this.checkAnswersButton.UseVisualStyleBackColor = false;
+            this.checkAnswersButton.Click += new System.EventHandler(this.checkAnswersButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Salmon;
             this.ClientSize = new System.Drawing.Size(484, 361);
+            this.Controls.Add(this.checkAnswersButton);
             this.Controls.Add(this.startButton);
             this.Controls.Add(this.divisionEqualsSign);
             this.Controls.Add(this.divisionRightLabel);
@@ -382,6 +397,7 @@
         private System.Windows.Forms.Label divisionLeftLabel;
         private System.Windows.Forms.Button startButton;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Button checkAnswersButton;
     }
 }
 

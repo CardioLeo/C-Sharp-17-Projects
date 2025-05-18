@@ -135,6 +135,11 @@ namespace MathsQuiz
             }
         }
 
+        private void clockReset()
+        {
+            clock = 30;
+        }
+
         public void startQuiz()
         {
             additionGenerator();
@@ -143,6 +148,19 @@ namespace MathsQuiz
             divisionGenerator();
             timer1.Start();
         }
+
+        public void announceSuccessfulAnswers()
+        {
+            answersWereSuccessful = checkAnswers();
+            if (answersWereSuccessful)
+            {
+                timer1.Stop();
+                MessageBox.Show("Good Job! You figured out all the answers!", "Congratulations!");
+                clockReset();
+                startButton.Enabled = true;
+            }
+        }
+        
         public Form1()
         {
             InitializeComponent();
@@ -169,12 +187,8 @@ namespace MathsQuiz
                 // show a MessageBox, and fill in the answers
                 timer1.Stop();
                 timeLabel.Text = "Time's up!";
-                answersWereSuccessful = checkAnswers();
-                if (answersWereSuccessful)
-                {
-                    MessageBox.Show("Good Job! You figured out all the answers!", "Congratulations!");
-                }
-                else
+                announceSuccessfulAnswers();
+                if (!answersWereSuccessful)
                 {
                     MessageBox.Show("You didn't finish in time.", "Sorry...");
                 }
@@ -184,7 +198,16 @@ namespace MathsQuiz
                 quotientSelector.Value = divNum1 / divNum2;
 
                 startButton.Enabled = true;
-                clock = 30;
+                clockReset();
+            }
+        }
+
+        private void checkAnswersButton_Click(object sender, EventArgs e)
+        {
+            announceSuccessfulAnswers();
+            if (!answersWereSuccessful)
+            {
+                MessageBox.Show("Not this time! Keep trying!", "Not yet!");
             }
         }
     }
