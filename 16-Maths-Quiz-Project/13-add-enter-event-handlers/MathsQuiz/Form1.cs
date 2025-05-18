@@ -66,6 +66,11 @@ namespace MathsQuiz
         {
             divNum1 = randomizer.Next(51);
             divNum2 = randomizer.Next(divNum1);
+            if (divNum1 == 0)
+            {
+                divNum1++;
+                divNum2++;
+            }
             divisionLeftLabel.Text = divNum1.ToString();
             divisionRightLabel.Text = divNum2.ToString();
 
