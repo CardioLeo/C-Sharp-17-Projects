@@ -1,0 +1,8 @@
+you will learn how to:
+
+- create a database
+- create a table
+- add data into a database table
+- add controls to a form
+- add database to visual studio project
+- write code for event handler methods
