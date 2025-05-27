@@ -1,0 +1,20 @@
+for this video we wrote SQL code and executed it within Microsoft's SQL Server Manger
+I have included this here in a txt file because I haven't decided yet whether I want
+to add the SQL Server folders to the repo for this project; so I wanted some notes to
+reflect what we did so far regarding SQL;
+
+we generated the following table:
+
+// loginID	username	password
+// 1		joebloggs	password123
+// 2		janedoe		password1234
+// 3		blargedyblow	passwordless
+
+this was done with code like the following:
+
+// INSERT INTO dbo.logins (loginID,username,password)
+// VALUES(3,'blargedyblow','passwordless');
+
+and verified with this:
+
+// SELECT * FROM dbo.logins;
