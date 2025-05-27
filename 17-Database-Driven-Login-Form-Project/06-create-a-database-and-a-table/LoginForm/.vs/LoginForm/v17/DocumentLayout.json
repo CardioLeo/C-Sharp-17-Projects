@@ -11,12 +11,12 @@
       "RelativeMoniker": "D:0:0:{F5A88080-E108-48A4-9DE2-DA10E56267DC}|LoginForm.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5A88080-E108-48A4-9DE2-DA10E56267DC}|LoginForm.csproj|c:\\users\\william\\documents\\coding\\languages\\c-sharp\\c-sharp-17-projects\\17-database-driven-login-form-project\\06-create-a-database-and-a-table\\loginform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5A88080-E108-48A4-9DE2-DA10E56267DC}|LoginForm.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F5A88080-E108-48A4-9DE2-DA10E56267DC}|LoginForm.csproj|C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\17-Database-Driven-Login-Form-Project\\06-create-a-database-and-a-table\\LoginForm\\loggedinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F5A88080-E108-48A4-9DE2-DA10E56267DC}|LoginForm.csproj|solutionrelative:loggedinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5A88080-E108-48A4-9DE2-DA10E56267DC}|LoginForm.csproj|c:\\users\\william\\documents\\coding\\languages\\c-sharp\\c-sharp-17-projects\\17-database-driven-login-form-project\\06-create-a-database-and-a-table\\loginform\\loggedinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F5A88080-E108-48A4-9DE2-DA10E56267DC}|LoginForm.csproj|solutionrelative:loggedinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F5A88080-E108-48A4-9DE2-DA10E56267DC}|LoginForm.csproj|C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\17-Database-Driven-Login-Form-Project\\06-create-a-database-and-a-table\\LoginForm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5A88080-E108-48A4-9DE2-DA10E56267DC}|LoginForm.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,14 +36,14 @@
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\17-Database-Driven-Login-Form-Project\\06-create-a-database-and-a-table\\LoginForm\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAkwBcAAACVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-27T05:46:09.22Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\17-Database-Driven-Login-Form-Project\\06-create-a-database-and-a-table\\LoginForm\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -68,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "loggedInForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\William\\Documents\\Coding\\Languages\\C-Sharp\\C-Sharp-17-Projects\\17-Database-Driven-Login-Form-Project\\06-create-a-database-and-a-table\\LoginForm\\loggedInForm.cs",
               "RelativeDocumentMoniker": "loggedInForm.cs",
