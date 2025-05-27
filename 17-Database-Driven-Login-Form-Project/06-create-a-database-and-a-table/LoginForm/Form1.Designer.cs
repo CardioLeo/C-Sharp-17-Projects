@@ -39,7 +39,7 @@
             // usernameTextBox
             // 
             this.usernameTextBox.BackColor = System.Drawing.Color.Honeydew;
-            this.usernameTextBox.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.usernameTextBox.Font = new System.Drawing.Font("Bahnschrift", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.usernameTextBox.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.usernameTextBox.Location = new System.Drawing.Point(153, 38);
             this.usernameTextBox.Multiline = true;
@@ -50,7 +50,7 @@
             // passwordTextBox
             // 
             this.passwordTextBox.BackColor = System.Drawing.Color.Honeydew;
-            this.passwordTextBox.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.passwordTextBox.Font = new System.Drawing.Font("Bahnschrift", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.passwordTextBox.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.passwordTextBox.Location = new System.Drawing.Point(153, 87);
             this.passwordTextBox.Multiline = true;
