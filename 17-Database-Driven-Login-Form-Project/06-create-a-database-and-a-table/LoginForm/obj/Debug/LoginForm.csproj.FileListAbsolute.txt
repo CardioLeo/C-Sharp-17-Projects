@@ -8,3 +8,14 @@ C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\17-Datab
 C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\17-Database-Driven-Login-Form-Project\02-create-project-with-form\LoginForm\obj\Debug\LoginForm.csproj.CoreCompileInputs.cache
 C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\17-Database-Driven-Login-Form-Project\02-create-project-with-form\LoginForm\obj\Debug\LoginForm.exe
 C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\17-Database-Driven-Login-Form-Project\02-create-project-with-form\LoginForm\obj\Debug\LoginForm.pdb
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\17-Database-Driven-Login-Form-Project\06-create-a-database-and-a-table\LoginForm\obj\Debug\LoginForm.csproj.AssemblyReference.cache
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\17-Database-Driven-Login-Form-Project\06-create-a-database-and-a-table\LoginForm\obj\Debug\LoginForm.loginForm.resources
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\17-Database-Driven-Login-Form-Project\06-create-a-database-and-a-table\LoginForm\obj\Debug\LoginForm.loggedInForm.resources
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\17-Database-Driven-Login-Form-Project\06-create-a-database-and-a-table\LoginForm\obj\Debug\LoginForm.Properties.Resources.resources
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\17-Database-Driven-Login-Form-Project\06-create-a-database-and-a-table\LoginForm\obj\Debug\LoginForm.csproj.GenerateResource.cache
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\17-Database-Driven-Login-Form-Project\06-create-a-database-and-a-table\LoginForm\obj\Debug\LoginForm.csproj.CoreCompileInputs.cache
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\17-Database-Driven-Login-Form-Project\06-create-a-database-and-a-table\LoginForm\obj\Debug\LoginForm.exe
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\17-Database-Driven-Login-Form-Project\06-create-a-database-and-a-table\LoginForm\obj\Debug\LoginForm.pdb
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\17-Database-Driven-Login-Form-Project\06-create-a-database-and-a-table\LoginForm\bin\Debug\LoginForm.exe.config
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\17-Database-Driven-Login-Form-Project\06-create-a-database-and-a-table\LoginForm\bin\Debug\LoginForm.exe
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\17-Database-Driven-Login-Form-Project\06-create-a-database-and-a-table\LoginForm\bin\Debug\LoginForm.pdb
