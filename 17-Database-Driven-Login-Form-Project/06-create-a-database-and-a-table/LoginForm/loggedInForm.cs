@@ -16,5 +16,10 @@ namespace LoginForm
         {
             InitializeComponent();
         }
+
+        private void closeSuccessWindowButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

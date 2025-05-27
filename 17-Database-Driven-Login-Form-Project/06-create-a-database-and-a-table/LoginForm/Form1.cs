@@ -39,5 +39,10 @@ namespace LoginForm
                 MessageBox.Show("Please check your username and password");
             }
         }
+
+        private void logOutButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
