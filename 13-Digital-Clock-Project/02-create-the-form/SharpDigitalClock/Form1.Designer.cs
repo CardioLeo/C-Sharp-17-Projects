@@ -38,19 +38,21 @@
             // 
             // hourMinuteLabel
             // 
+            this.hourMinuteLabel.BackColor = System.Drawing.Color.Transparent;
             this.hourMinuteLabel.Font = new System.Drawing.Font("Bahnschrift", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.hourMinuteLabel.ForeColor = System.Drawing.Color.DarkSlateBlue;
-            this.hourMinuteLabel.Location = new System.Drawing.Point(12, 9);
+            this.hourMinuteLabel.Location = new System.Drawing.Point(2, 9);
             this.hourMinuteLabel.Name = "hourMinuteLabel";
-            this.hourMinuteLabel.Size = new System.Drawing.Size(271, 121);
+            this.hourMinuteLabel.Size = new System.Drawing.Size(286, 121);
             this.hourMinuteLabel.TabIndex = 0;
             this.hourMinuteLabel.Text = "19:25";
             // 
             // secondsLabel
             // 
+            this.secondsLabel.BackColor = System.Drawing.Color.Transparent;
             this.secondsLabel.Font = new System.Drawing.Font("Bahnschrift", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.secondsLabel.ForeColor = System.Drawing.Color.DarkSlateBlue;
-            this.secondsLabel.Location = new System.Drawing.Point(252, 9);
+            this.secondsLabel.Location = new System.Drawing.Point(247, 9);
             this.secondsLabel.Name = "secondsLabel";
             this.secondsLabel.Size = new System.Drawing.Size(167, 121);
             this.secondsLabel.TabIndex = 1;
@@ -87,10 +89,10 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.IndianRed;
             this.ClientSize = new System.Drawing.Size(528, 261);
-            this.Controls.Add(this.weekDayLabel);
-            this.Controls.Add(this.dateLabel);
             this.Controls.Add(this.secondsLabel);
             this.Controls.Add(this.hourMinuteLabel);
+            this.Controls.Add(this.weekDayLabel);
+            this.Controls.Add(this.dateLabel);
             this.Name = "Form1";
             this.Text = "Sharp Digital Clock";
             this.ResumeLayout(false);
