@@ -20,6 +20,8 @@ namespace LoginForm
         private void closeSuccessWindowButton_Click(object sender, EventArgs e)
         {
             this.Close();
+            loginForm objloginForm = new loginForm();
+            objloginForm.Show();
         }
     }
 }
