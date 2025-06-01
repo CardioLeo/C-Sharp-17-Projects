@@ -68,8 +68,8 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.webBrowser1);
-            this.splitContainer1.Size = new System.Drawing.Size(743, 324);
-            this.splitContainer1.SplitterDistance = 247;
+            this.splitContainer1.Size = new System.Drawing.Size(606, 358);
+            this.splitContainer1.SplitterDistance = 201;
             this.splitContainer1.TabIndex = 0;
             // 
             // searchButton
@@ -77,7 +77,7 @@
             this.searchButton.BackColor = System.Drawing.Color.CadetBlue;
             this.searchButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.searchButton.ForeColor = System.Drawing.Color.LightCyan;
-            this.searchButton.Location = new System.Drawing.Point(28, 276);
+            this.searchButton.Location = new System.Drawing.Point(30, 289);
             this.searchButton.Name = "searchButton";
             this.searchButton.Size = new System.Drawing.Size(102, 36);
             this.searchButton.TabIndex = 8;
@@ -90,7 +90,7 @@
             this.zipcodeLabel.AutoSize = true;
             this.zipcodeLabel.Font = new System.Drawing.Font("Bahnschrift", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.zipcodeLabel.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.zipcodeLabel.Location = new System.Drawing.Point(26, 204);
+            this.zipcodeLabel.Location = new System.Drawing.Point(28, 217);
             this.zipcodeLabel.Name = "zipcodeLabel";
             this.zipcodeLabel.Size = new System.Drawing.Size(66, 19);
             this.zipcodeLabel.TabIndex = 7;
@@ -101,7 +101,7 @@
             this.stateLabel.AutoSize = true;
             this.stateLabel.Font = new System.Drawing.Font("Bahnschrift", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.stateLabel.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.stateLabel.Location = new System.Drawing.Point(26, 140);
+            this.stateLabel.Location = new System.Drawing.Point(28, 153);
             this.stateLabel.Name = "stateLabel";
             this.stateLabel.Size = new System.Drawing.Size(47, 19);
             this.stateLabel.TabIndex = 6;
@@ -112,7 +112,7 @@
             this.cityLabel.AutoSize = true;
             this.cityLabel.Font = new System.Drawing.Font("Bahnschrift", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cityLabel.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.cityLabel.Location = new System.Drawing.Point(26, 80);
+            this.cityLabel.Location = new System.Drawing.Point(28, 93);
             this.cityLabel.Name = "cityLabel";
             this.cityLabel.Size = new System.Drawing.Size(36, 19);
             this.cityLabel.TabIndex = 5;
@@ -123,7 +123,7 @@
             this.streetLabel.AutoSize = true;
             this.streetLabel.Font = new System.Drawing.Font("Bahnschrift", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.streetLabel.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.streetLabel.Location = new System.Drawing.Point(26, 19);
+            this.streetLabel.Location = new System.Drawing.Point(28, 32);
             this.streetLabel.Name = "streetLabel";
             this.streetLabel.Size = new System.Drawing.Size(54, 19);
             this.streetLabel.TabIndex = 4;
@@ -132,7 +132,7 @@
             // zipcodeTextBox
             // 
             this.zipcodeTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.zipcodeTextBox.Location = new System.Drawing.Point(30, 234);
+            this.zipcodeTextBox.Location = new System.Drawing.Point(32, 247);
             this.zipcodeTextBox.Name = "zipcodeTextBox";
             this.zipcodeTextBox.Size = new System.Drawing.Size(100, 20);
             this.zipcodeTextBox.TabIndex = 3;
@@ -140,7 +140,7 @@
             // stateTextBox
             // 
             this.stateTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.stateTextBox.Location = new System.Drawing.Point(30, 170);
+            this.stateTextBox.Location = new System.Drawing.Point(32, 183);
             this.stateTextBox.Name = "stateTextBox";
             this.stateTextBox.Size = new System.Drawing.Size(100, 20);
             this.stateTextBox.TabIndex = 2;
@@ -148,7 +148,7 @@
             // cityTextBox
             // 
             this.cityTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.cityTextBox.Location = new System.Drawing.Point(30, 110);
+            this.cityTextBox.Location = new System.Drawing.Point(32, 123);
             this.cityTextBox.Name = "cityTextBox";
             this.cityTextBox.Size = new System.Drawing.Size(100, 20);
             this.cityTextBox.TabIndex = 1;
@@ -156,7 +156,7 @@
             // streetTextBox
             // 
             this.streetTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.streetTextBox.Location = new System.Drawing.Point(30, 49);
+            this.streetTextBox.Location = new System.Drawing.Point(32, 62);
             this.streetTextBox.Name = "streetTextBox";
             this.streetTextBox.Size = new System.Drawing.Size(100, 20);
             this.streetTextBox.TabIndex = 0;
@@ -167,14 +167,14 @@
             this.webBrowser1.Location = new System.Drawing.Point(0, 0);
             this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowser1.Name = "webBrowser1";
-            this.webBrowser1.Size = new System.Drawing.Size(492, 324);
+            this.webBrowser1.Size = new System.Drawing.Size(401, 358);
             this.webBrowser1.TabIndex = 0;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(743, 324);
+            this.ClientSize = new System.Drawing.Size(606, 358);
             this.Controls.Add(this.splitContainer1);
             this.Name = "Form1";
             this.Text = "Sharp Google Maps";

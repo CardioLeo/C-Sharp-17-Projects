@@ -44,6 +44,7 @@ namespace SharpGoogleMaps
                 {
                     queryData.Append(street + ", " + "+ ");
                 }
+                webBrowser1.Navigate(queryData.ToString());
             }
             catch (Exception exc)
             {
