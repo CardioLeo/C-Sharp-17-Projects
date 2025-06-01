@@ -1,0 +1,7 @@
+You will learn how to:
+
+- create a form
+- add controls to a form
+- customize controls
+- add web browser control to a form
+- write C# code
