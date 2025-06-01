@@ -1,0 +1,6 @@
+You will learn how to:
+
+- create a database
+- create a table
+- upload images into a database
+- create and use dataset
