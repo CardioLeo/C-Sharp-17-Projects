@@ -16,5 +16,23 @@ namespace SharpGoogleMaps
         {
             InitializeComponent();
         }
+
+        private void searchButton_Click(object sender, EventArgs e)
+        {
+            string street = streetTextBox.Text;
+            string city = cityTextBox.Text;
+            string state = stateTextBox.Text;
+            string zipcode = zipcodeTextBox.Text;
+
+            try
+            {
+                StringBuilder queryData = new StringBuilder();
+                queryData.Append("http://maps.google.com/maps?=");
+            }
+            catch (Exception exc)
+            {
+                MessageBox.Show(exc.Message.ToString(), "Error");
+            }
+        }
     }
 }

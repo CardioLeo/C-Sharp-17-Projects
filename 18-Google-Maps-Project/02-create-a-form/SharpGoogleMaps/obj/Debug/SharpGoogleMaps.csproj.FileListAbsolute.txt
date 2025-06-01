@@ -1,0 +1,10 @@
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\18-Google-Maps-Project\02-create-a-form\SharpGoogleMaps\bin\Debug\SharpGoogleMaps.exe.config
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\18-Google-Maps-Project\02-create-a-form\SharpGoogleMaps\bin\Debug\SharpGoogleMaps.exe
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\18-Google-Maps-Project\02-create-a-form\SharpGoogleMaps\bin\Debug\SharpGoogleMaps.pdb
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\18-Google-Maps-Project\02-create-a-form\SharpGoogleMaps\obj\Debug\SharpGoogleMaps.csproj.AssemblyReference.cache
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\18-Google-Maps-Project\02-create-a-form\SharpGoogleMaps\obj\Debug\SharpGoogleMaps.Form1.resources
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\18-Google-Maps-Project\02-create-a-form\SharpGoogleMaps\obj\Debug\SharpGoogleMaps.Properties.Resources.resources
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\18-Google-Maps-Project\02-create-a-form\SharpGoogleMaps\obj\Debug\SharpGoogleMaps.csproj.GenerateResource.cache
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\18-Google-Maps-Project\02-create-a-form\SharpGoogleMaps\obj\Debug\SharpGoogleMaps.csproj.CoreCompileInputs.cache
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\18-Google-Maps-Project\02-create-a-form\SharpGoogleMaps\obj\Debug\SharpGoogleMaps.exe
+C:\Users\William\Documents\Coding\Languages\C-Sharp\C-Sharp-17-Projects\18-Google-Maps-Project\02-create-a-form\SharpGoogleMaps\obj\Debug\SharpGoogleMaps.pdb

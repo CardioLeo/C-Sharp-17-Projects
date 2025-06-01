@@ -29,15 +29,15 @@
         private void InitializeComponent()
         {
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.button1 = new System.Windows.Forms.Button();
+            this.searchButton = new System.Windows.Forms.Button();
             this.zipcodeLabel = new System.Windows.Forms.Label();
             this.stateLabel = new System.Windows.Forms.Label();
             this.cityLabel = new System.Windows.Forms.Label();
             this.streetLabel = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.zipcodeTextBox = new System.Windows.Forms.TextBox();
+            this.stateTextBox = new System.Windows.Forms.TextBox();
+            this.cityTextBox = new System.Windows.Forms.TextBox();
+            this.streetTextBox = new System.Windows.Forms.TextBox();
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -53,15 +53,17 @@
             // 
             // splitContainer1.Panel1
             // 
-            this.splitContainer1.Panel1.Controls.Add(this.button1);
+            this.splitContainer1.Panel1.BackColor = System.Drawing.Color.PowderBlue;
+            this.splitContainer1.Panel1.Controls.Add(this.searchButton);
             this.splitContainer1.Panel1.Controls.Add(this.zipcodeLabel);
             this.splitContainer1.Panel1.Controls.Add(this.stateLabel);
             this.splitContainer1.Panel1.Controls.Add(this.cityLabel);
             this.splitContainer1.Panel1.Controls.Add(this.streetLabel);
-            this.splitContainer1.Panel1.Controls.Add(this.textBox4);
-            this.splitContainer1.Panel1.Controls.Add(this.textBox3);
-            this.splitContainer1.Panel1.Controls.Add(this.textBox2);
-            this.splitContainer1.Panel1.Controls.Add(this.textBox1);
+            this.splitContainer1.Panel1.Controls.Add(this.zipcodeTextBox);
+            this.splitContainer1.Panel1.Controls.Add(this.stateTextBox);
+            this.splitContainer1.Panel1.Controls.Add(this.cityTextBox);
+            this.splitContainer1.Panel1.Controls.Add(this.streetTextBox);
+            this.splitContainer1.Panel1.Font = new System.Drawing.Font("Bahnschrift", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
             // splitContainer1.Panel2
             // 
@@ -70,78 +72,94 @@
             this.splitContainer1.SplitterDistance = 247;
             this.splitContainer1.TabIndex = 0;
             // 
-            // button1
+            // searchButton
             // 
-            this.button1.Location = new System.Drawing.Point(29, 252);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "Search";
-            this.button1.UseVisualStyleBackColor = true;
+            this.searchButton.BackColor = System.Drawing.Color.CadetBlue;
+            this.searchButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.searchButton.ForeColor = System.Drawing.Color.LightCyan;
+            this.searchButton.Location = new System.Drawing.Point(28, 276);
+            this.searchButton.Name = "searchButton";
+            this.searchButton.Size = new System.Drawing.Size(102, 36);
+            this.searchButton.TabIndex = 8;
+            this.searchButton.Text = "Search";
+            this.searchButton.UseVisualStyleBackColor = false;
+            this.searchButton.Click += new System.EventHandler(this.searchButton_Click);
             // 
             // zipcodeLabel
             // 
             this.zipcodeLabel.AutoSize = true;
-            this.zipcodeLabel.Location = new System.Drawing.Point(26, 189);
+            this.zipcodeLabel.Font = new System.Drawing.Font("Bahnschrift", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.zipcodeLabel.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.zipcodeLabel.Location = new System.Drawing.Point(26, 204);
             this.zipcodeLabel.Name = "zipcodeLabel";
-            this.zipcodeLabel.Size = new System.Drawing.Size(46, 13);
+            this.zipcodeLabel.Size = new System.Drawing.Size(66, 19);
             this.zipcodeLabel.TabIndex = 7;
             this.zipcodeLabel.Text = "Zipcode";
             // 
             // stateLabel
             // 
             this.stateLabel.AutoSize = true;
-            this.stateLabel.Location = new System.Drawing.Point(26, 130);
+            this.stateLabel.Font = new System.Drawing.Font("Bahnschrift", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.stateLabel.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.stateLabel.Location = new System.Drawing.Point(26, 140);
             this.stateLabel.Name = "stateLabel";
-            this.stateLabel.Size = new System.Drawing.Size(32, 13);
+            this.stateLabel.Size = new System.Drawing.Size(47, 19);
             this.stateLabel.TabIndex = 6;
             this.stateLabel.Text = "State";
             // 
             // cityLabel
             // 
             this.cityLabel.AutoSize = true;
-            this.cityLabel.Location = new System.Drawing.Point(26, 75);
+            this.cityLabel.Font = new System.Drawing.Font("Bahnschrift", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cityLabel.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.cityLabel.Location = new System.Drawing.Point(26, 80);
             this.cityLabel.Name = "cityLabel";
-            this.cityLabel.Size = new System.Drawing.Size(24, 13);
+            this.cityLabel.Size = new System.Drawing.Size(36, 19);
             this.cityLabel.TabIndex = 5;
             this.cityLabel.Text = "City";
             // 
             // streetLabel
             // 
             this.streetLabel.AutoSize = true;
+            this.streetLabel.Font = new System.Drawing.Font("Bahnschrift", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.streetLabel.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.streetLabel.Location = new System.Drawing.Point(26, 19);
             this.streetLabel.Name = "streetLabel";
-            this.streetLabel.Size = new System.Drawing.Size(35, 13);
+            this.streetLabel.Size = new System.Drawing.Size(54, 19);
             this.streetLabel.TabIndex = 4;
             this.streetLabel.Text = "Street";
             // 
-            // textBox4
+            // zipcodeTextBox
             // 
-            this.textBox4.Location = new System.Drawing.Point(29, 205);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 3;
+            this.zipcodeTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.zipcodeTextBox.Location = new System.Drawing.Point(30, 234);
+            this.zipcodeTextBox.Name = "zipcodeTextBox";
+            this.zipcodeTextBox.Size = new System.Drawing.Size(100, 20);
+            this.zipcodeTextBox.TabIndex = 3;
             // 
-            // textBox3
+            // stateTextBox
             // 
-            this.textBox3.Location = new System.Drawing.Point(29, 146);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 2;
+            this.stateTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.stateTextBox.Location = new System.Drawing.Point(30, 170);
+            this.stateTextBox.Name = "stateTextBox";
+            this.stateTextBox.Size = new System.Drawing.Size(100, 20);
+            this.stateTextBox.TabIndex = 2;
             // 
-            // textBox2
+            // cityTextBox
             // 
-            this.textBox2.Location = new System.Drawing.Point(29, 91);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 1;
+            this.cityTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cityTextBox.Location = new System.Drawing.Point(30, 110);
+            this.cityTextBox.Name = "cityTextBox";
+            this.cityTextBox.Size = new System.Drawing.Size(100, 20);
+            this.cityTextBox.TabIndex = 1;
             // 
-            // textBox1
+            // streetTextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(29, 35);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 0;
+            this.streetTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.streetTextBox.Location = new System.Drawing.Point(30, 49);
+            this.streetTextBox.Name = "streetTextBox";
+            this.streetTextBox.Size = new System.Drawing.Size(100, 20);
+            this.streetTextBox.TabIndex = 0;
             // 
             // webBrowser1
             // 
@@ -172,15 +190,15 @@
         #endregion
 
         private System.Windows.Forms.SplitContainer splitContainer1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button searchButton;
         private System.Windows.Forms.Label zipcodeLabel;
         private System.Windows.Forms.Label stateLabel;
         private System.Windows.Forms.Label cityLabel;
         private System.Windows.Forms.Label streetLabel;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox zipcodeTextBox;
+        private System.Windows.Forms.TextBox stateTextBox;
+        private System.Windows.Forms.TextBox cityTextBox;
+        private System.Windows.Forms.TextBox streetTextBox;
         private System.Windows.Forms.WebBrowser webBrowser1;
     }
 }
