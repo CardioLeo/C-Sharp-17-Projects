@@ -28,6 +28,22 @@ namespace SharpGoogleMaps
             {
                 StringBuilder queryData = new StringBuilder();
                 queryData.Append("http://maps.google.com/maps?=");
+                if (street != string.Empty)
+                {
+                    queryData.Append(street + ", " + "+ ");
+                }
+                if (city != string.Empty)
+                {
+                    queryData.Append(street + ", " + "+ ");
+                }
+                if (state != string.Empty)
+                {
+                    queryData.Append(street + ", " + "+ ");
+                }
+                if (zipcode != string.Empty)
+                {
+                    queryData.Append(street + ", " + "+ ");
+                }
             }
             catch (Exception exc)
             {
